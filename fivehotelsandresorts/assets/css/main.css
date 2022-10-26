@@ -183,7 +183,17 @@ a{
 }
 .section3{
     padding: 60px 0px;
-    background-color: #BFE617; 
+    background-color: #BFE617;
+    position: relative; 
+}
+.section3:after{
+    content: "";
+    background-image: url(../images/boots.png);
+    width: 350px;
+    height: 254px;
+    position: absolute;
+    right: 20px;
+    top: -115px;
 }
 .S2T1{
     font-size: 80px;
@@ -210,4 +220,18 @@ a{
     font-family: 'TTNorms-Regular';
     font-size: 18px;
     line-height: 1.2;
+}
+.regular img{
+    width: 100%;
+    border-radius: 50px;
+}
+.SliderBox{
+    padding: 10px 60px;
+    position: relative;
+}
+.slick-prev:before, .slick-next:before{
+    font-size: 40px;
+}
+.slick-prev {
+    left: -45px;
 }
