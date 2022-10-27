@@ -48,7 +48,9 @@ a{
     }
 }
 .container{
-    max-width: 1500px;
+    max-width: 1600px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 .HeroNavWrp{
     position: fixed;
@@ -102,9 +104,10 @@ a{
 .Layer2{
     position: absolute;
     left: 0;
-    bottom: 0;
+    top: 0;
     padding: 20px 0px;
     width: 100%;
+    padding-top: 130px;
 }
 .HeroBanner{
     position: relative;
@@ -181,6 +184,21 @@ a{
     padding: 60px 0px;
     background-color: #EDEDEC;
 }
+.section4{
+    padding: 60px 0px;
+    background-color: #EDEDEC;
+    position: relative;
+}
+.section4::after{
+    content: "";
+    background-image: url(../images/playerleft.png);
+    height: 500px;
+    width: 263px;
+    background-size: 100% 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
 .section3{
     padding: 60px 0px;
     background-color: #BFE617;
@@ -219,7 +237,7 @@ a{
     margin-bottom: 10px;
     font-family: 'TTNorms-Regular';
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 .regular img{
     width: 100%;
@@ -234,4 +252,120 @@ a{
 }
 .slick-prev {
     left: -45px;
+}
+.BandImage img{
+    width: 100%;
+    cursor: pointer;
+}
+.menuImage img{
+    width: 100%;
+    max-width: 70%;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+.bannerT1{
+    width: 100%;
+}
+.section5{
+    position: relative;
+}
+.section5 .AbsCnt{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.locationImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section6 {
+    overflow: hidden;
+}
+.ContactBox{
+    padding: 50px;
+}
+.CT1{
+    font-size: 80px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.ViewMenuBtn{
+    background-color: #fff;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 30px;
+    color: #000;
+    min-width: 160px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ViewMenuBtn:hover{
+    background-color: #BFE617;
+    color: #fff;
+}
+.Ct2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.Ct3{
+display: block;
+font-family: 'TTNorms-Regular';
+color: #000;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.Ct4{
+    display: block;
+    font-family: 'TTNorms-Regular';
+    color: #000;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ContactBox a:hover{
+   color: #BFE617 !important;
+}
+.ct5{
+    display: block;
+    font-family: 'TTNorms-Regular';
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.socialBox ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.socialBox ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.socialBox ul li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    
+    border: 1px solid #000;
+}
+.socialBox ul li a svg{
+   
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 6px;
+}
+.socialBox ul li a:hover{
+    background-color: #BFE617 !important;;
 }
