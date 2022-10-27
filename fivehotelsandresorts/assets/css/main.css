@@ -84,8 +84,8 @@ a{
     color: #fff;
     font-family: 'TTNorms-Regular';
 }
-.NavUl li a:hover{
-
+.NavUl li a:hover , .NavUl li a.active{
+color: #BFE617 !important;
 }
 .bookNowBtn{
     background-color: #fff;
@@ -368,4 +368,302 @@ color: #000;
 }
 .socialBox ul li a:hover{
     background-color: #BFE617 !important;;
+}
+.PositionFixed{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.PositionFixed {
+    width: 50px;
+
+}
+.PositionFixed a{
+    text-align: center;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.PositionFixed a:hover{
+    background-color: #BFE617 !important;
+}
+.PositionFixed svg{
+    max-height: 35px;
+    position: relative;
+    top: 6px;
+}
+.MenuGraphic{
+    width: 35px;
+    cursor: pointer;
+}
+.MenuGraphic div{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 6px;
+}
+.MenuGraphic div:last-child{
+    margin-bottom: 0;
+}
+.SideNav{
+    position: fixed;
+    background-color: #000;
+    top: 0;
+    left: -100%;;
+    width: 100%;
+    padding: 20px 20px;
+    z-index: 99;
+    height: 100%;
+    transition: 0.4s;
+}
+.SideNav .NavUl {
+    display: block;
+}
+.SideNav .NavUl li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'TTNorms-Regular';
+    display: block;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 30px;
+}
+.activesidenav .SideNav{
+    left: 0;
+}
+.mobile-only{
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .mobile-only{
+        display: block;
+    }
+    .desk-only{
+        display: none;
+    }
+    .HeroNavWrp .container ,
+    .section2 .container,
+    .section3 .container ,
+    .section4 .container {
+        padding-left: 15px ;
+        padding-right: 15px;
+    }
+    .logoImaeg {
+        max-width: 90px;
+    }
+    .bookNowBtn {
+        padding: 7px;
+        min-width: 125px;
+        font-size: 14px;
+    }
+    .HeroNavWrp{
+        padding: 15px 0px;
+    }
+    .Layer2 {
+        position: relative;
+        left: auto;
+        top: auto;
+        padding: 20px 0px;
+        width: 100%;
+        padding-top: 0;
+        background-image: url(../images/main-screen.jpg);
+    }
+    .Layer2 .container {
+        padding: 20px;
+    }
+    html {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        position: relative;
+    }
+    body {
+        position: relative;
+        overflow-x: hidden!important;
+    }
+    .T1{
+        font-size: 25px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .T2Section{
+        display: block;
+    }
+    .T2SectionL {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .T2{
+        font-size: 15px;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 0px;
+    }
+    .T2 br{
+        display: none;
+    }
+    .T2Link {
+        display: inline-block;
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
+        border-bottom: 2px solid #fff;
+        padding: 5px 0px;
+        margin-bottom: 20px;
+    }
+    .T2Link svg {
+        margin-left: 9px;
+        max-width: 15px;
+        position: relative;
+        top: 10px;
+    }
+    .T2SectionR {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .T3 {
+        margin-top: 20px;
+        text-align: center;
+        line-height: 1.3;
+    }
+    .S2T1 , .S3T1{
+        font-size: 25px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+    .section2 {
+        padding: 20px 0px;
+    }
+    .section3:after {
+        content: "";
+        background-image: url(../images/boots.png);
+        width: 143px;
+        height: 115px;
+        position: absolute;
+        right: 20px;
+        top: -40px;
+        background-size: 100% 100%;
+    }
+    .section3 {
+        padding: 20px 0px;
+        padding-top: 90px;
+    }
+    .S3Sb1 {
+        font-size: 14px;
+        padding: 0px 15px;
+    }
+    .PositionFixed svg {
+        max-height: 26px;
+        top: 8px;
+    left: -3px;
+    }
+    .PositionFixed a{
+        height: 45px;
+    width: 45px;
+    }
+    .PositionFixed {
+        right: 5px;
+        bottom: 110px;
+    }
+    .SliderBox {
+        padding: 10px 0px;
+    }
+    .SliderBox  img{
+        padding-right: 5px;
+    }
+    .mobilePad1 .col-md-4{
+        padding: 0;
+    }
+    .section4::after{
+        content: none;
+    }
+    .section4 {
+        padding: 20px 0px;
+    }
+    .section4 .S3T1 {
+        text-align: center;
+    }
+    .section4 .S3Sb1 {
+        padding: 0;
+    }
+    .menuImage img {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .ViewMenuBtn{
+        margin-top: 30px;
+    }
+    .ContactBox {
+        padding: 20px;
+    }
+    .CT1 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .Ct2 {
+        font-size: 17px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .Ct3 {
+        display: block;
+        font-family: 'TTNorms-Regular';
+        color: #000;
+        font-size: 16px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .Ct4 {
+        display: block;
+        font-family: 'TTNorms-Regular';
+        color: #000;
+        font-size: 16px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .ct5 {
+        display: block;
+        font-family: 'TTNorms-Regular';
+        color: #000;
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .socialBox ul li a svg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 8px;
+    }
+    .socialBox ul {
+        justify-content: center;
+    }
+    .footerButton{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background-color: #fff;
+        z-index: 6;
+        width: 100%;
+        border-top: 1px solid #e4e4e4;
+        display: flex;
+    }
+    .footerButton a{
+        width: 50%;
+        padding: 15px 10px;
+        color: #000 !important;
+        display: inline-block;
+        text-align: center;
+    }
+    .footerButton a:first-child{
+        border-right: 1px solid #000;
+    }
 }
