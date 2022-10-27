@@ -666,4 +666,7 @@ color: #000;
     .footerButton a:first-child{
         border-right: 1px solid #000;
     }
+    .socialBox{
+        margin-bottom: 60px;
+    }
 }
