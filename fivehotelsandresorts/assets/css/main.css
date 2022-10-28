@@ -882,6 +882,15 @@ color: #000;
         right: 10px;
         bottom: 0;
     }
+    .Ap1 img {
+        width: 70px;
+        height: 70px;
+        background-size: 100% 100%;
+        position: absolute;
+        right: -62px;
+        top: -17px;
+        z-index: -1;
+    }
   
 }
 
