@@ -520,18 +520,15 @@ color: #000;
     background-color: #000;
     display: inline-block;
     position: relative;
-    z-index: 2;
 }
-.Ap1::after{
-    content: "";
-    background-image: url(../images/round.png);
+.Ap1 img{
     width: 150px;
     height: 150px;
     background-size: 100% 100%;
     position: absolute;
     right: -113px;
     top: -30px;
-    z-index: 1;
+    z-index: -1;
 }
 .Latr{
     position: relative;
