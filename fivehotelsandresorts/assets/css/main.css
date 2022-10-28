@@ -117,7 +117,7 @@ color: #BFE617 !important;
 }
 .T1{
     color: #fff;
-    font-size: 75px;
+    font-size: 70px;
     margin-bottom: 20px;
 }
 .T2{
@@ -209,14 +209,15 @@ color: #BFE617 !important;
 .section3:after{
     content: "";
     background-image: url(../images/boots.png);
-    width: 350px;
-    height: 254px;
+    width: 300px;
+    height: 218px;
     position: absolute;
     right: 20px;
-    top: -115px;
+    top: -129px;
+    background-size: 100% 100%;
 }
 .S2T1{
-    font-size: 75px;
+    font-size: 70px;
     color: #000;
     text-transform: uppercase;
 }
@@ -227,7 +228,7 @@ color: #BFE617 !important;
     background-color: #000;
 }
 .S3T1{
-    font-size: 75px;
+    font-size: 70px;
     color: #000;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -291,7 +292,7 @@ color: #BFE617 !important;
     padding: 50px;
 }
 .CT1{
-    font-size: 75px;
+    font-size: 70px;
     color: #000;
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -675,15 +676,19 @@ color: #000;
 }
 
 .product-list{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
+
     overflow: hidden;
     width: 100%;
 }
-.product-item{
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 5%;
-    max-width:5%;
+.FicutureWrp .row1 {
+   display: flex;
+}
+.FicutureWrp .row1 .col-md-1{
+    flex: 0 0 3%;
+    max-width: 3%;
+    transform: rotate(90deg);
+}
+.CHead{
+    font-size: 10px;
+    padding: 10px;
 }
