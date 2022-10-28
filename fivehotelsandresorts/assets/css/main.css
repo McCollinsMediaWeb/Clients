@@ -882,16 +882,6 @@ color: #000;
         right: 10px;
         bottom: 0;
     }
-    .Ap1::after {
-        content: "";
-        background-image: url(../images/round.png);
-        width: 60px;
-        height: 60px;
-        background-size: 100% 100%;
-        position: absolute;
-        right: -51px;
-        top: -10px;
-        z-index: 1;
-    }
+  
 }
 
