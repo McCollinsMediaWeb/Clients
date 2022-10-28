@@ -34,8 +34,8 @@ body{
     
 }
 .QuickViewIcon img{
-    max-width: 35px !important;
-    width: 35px !important;
+    max-width: 30px !important;
+    width: 30px !important;
 }
 .QuickViewIcon svg path{
    fill: #fff;
@@ -65,7 +65,7 @@ body{
     right: 0;
 }
 .QuickViewIcon:hover{
-    width: 120px;
+    width: 100px;
 }
 
 
