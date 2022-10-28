@@ -28,6 +28,46 @@ body{
     font-size: 16px;
     font-family: 'Nimbus-Sans-D-OT-Bold-Extended_32745';
 }
+.OverLayBox{
+    position: relative;
+    display: block;
+    
+}
+.QuickViewIcon svg{
+    max-width: 50px;
+}
+.QuickViewIcon svg path{
+   fill: #fff;
+}
+.QuickViewIcon span{
+    display: none;
+}
+.QuickViewIcon{
+    background-color: #BFE617;
+    color: #fff;
+    transition: 0.4s;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 20px;
+}
+.QuickViewIcon.c1{
+    background-color: #000;
+    left: auto;
+    right: 0;
+}
+.QuickViewIcon:hover{
+    width: 120px;
+}
+
+
 a{
     text-decoration: none !important;
     transition: 0.4s;
@@ -808,7 +848,7 @@ color: #000;
         margin-bottom: 58px;
     }
     .mobilePad1 .col-md-8{
-        padding: 0;
+        padding: 0 7px;
     }
     .section4 .S3T1 {
         text-align: left;
@@ -818,6 +858,14 @@ color: #000;
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    
+    .QuickViewIcon{
+        width: 50px;
+    }
+    .QuickViewIcon.c1 {
+        background-color: #000;
+        left: auto;
+        right: 10px;
+        bottom: 0;
+    }
 }
 
