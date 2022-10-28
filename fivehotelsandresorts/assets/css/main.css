@@ -485,6 +485,12 @@ color: #000;
     font-size: 80px;
     margin-bottom: 50px;
 }
+.closIcon img{
+    max-width: 35px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
 @media only screen and (min-width: 1900px) {
     .Layer2{
         display: flex;
@@ -584,7 +590,7 @@ color: #000;
         line-height: 1.3;
     }
     .HeroNavWrp{
-        padding: 15px 0px;
+        padding: 20px 0px;
     }
     .Layer2 {
         position: relative;
@@ -797,5 +803,21 @@ color: #000;
     .Img-player img {
         width: 100%;
     }
+    .T1 {
+        margin-top: -165px;
+        margin-bottom: 58px;
+    }
+    .mobilePad1 .col-md-8{
+        padding: 0;
+    }
+    .section4 .S3T1 {
+        text-align: left;
+    }
+    .gallery {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
 }
 
