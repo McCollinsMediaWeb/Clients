@@ -519,6 +519,23 @@ color: #000;
     color: #BFE617;
     background-color: #000;
     display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+.Ap1::after{
+    content: "";
+    background-image: url(../images/round.png);
+    width: 150px;
+    height: 150px;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -113px;
+    top: -30px;
+    z-index: 1;
+}
+.Latr{
+    position: relative;
+    z-index: 99;
 }
 .Ap2{
     text-align: left;
@@ -636,7 +653,7 @@ color: #000;
         position: relative;
         left: auto;
         top: auto;
-        padding: 20px 0px;
+        padding: 20px 0px 0px 0px;
         width: 100%;
         padding-top: 0;
         background-image: url(../images/main-screen.jpg);
@@ -683,7 +700,7 @@ color: #000;
         text-transform: uppercase;
         border-bottom: 2px solid #fff;
         padding: 5px 0px;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
     .T2Link svg {
         margin-left: 9px;
@@ -844,7 +861,7 @@ color: #000;
         width: 100%;
     }
     .T1 {
-        margin-top: -165px;
+        margin-top: -380px;
         margin-bottom: 58px;
     }
     .mobilePad1 .col-md-8{
@@ -867,5 +884,18 @@ color: #000;
         right: 10px;
         bottom: 0;
     }
+    .Ap1::after {
+        content: "";
+        background-image: url(../images/round.png);
+        width: 60px;
+        height: 60px;
+        background-size: 100% 100%;
+        position: absolute;
+        right: -51px;
+        top: -10px;
+        z-index: 1;
+    }
 }
-
+.StickyHeader .HeroNavWrp {
+    background-color: #58001f;
+}

@@ -36,18 +36,18 @@
     <link rel="icon" type="image/png" sizes="16x16"
         href="https://palmjumeirah.fivehotelsandresorts.com/favicon-16x16.png" />
     <link rel="manifest" href="https://palmjumeirah.fivehotelsandresorts.com/site.webmanifest" />
-    <link rel="mask-icon" href="https://palmjumeirah.fivehotelsandresorts.com/safari-pinned-tab.svg" color="#000000" />
-    <meta name="msapplication-TileColor" content="#a6956d" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="theme-color" content="#000000" />
+    <link rel="mask-icon" href="https://palmjumeirah.fivehotelsandresorts.com/safari-pinned-tab.svg" color="#58001f" />
+    <meta name="msapplication-TileColor" content="#58001f" />
+    <meta name="theme-color" content="#58001f" />
+    <meta name="theme-color" content="#58001f" />
         <meta
           name="theme-color"
-          content="#000000"
+          content="#58001f"
           media="(prefers-color-scheme: light)"
         />
         <meta
           name="theme-color"
-          content="#000000"
+          content="#58001f"
           media="(prefers-color-scheme: dark)"
         />
 
@@ -64,18 +64,18 @@
                     .classList.remove("StickyHeader");
             }
         });
-        // function setPanels()
-        // {
-        // var windowWidth = window.innerWidth;
-        //     if(windowWidth < 1001)
-        //     {
-        //         document.getElementById('bannerT1').src = 'assets/images/mobile.jpg';
-        //     }
-        //     else
-        //     {
-        //         document.getElementById('bannerT1').src = 'assets/images/sec5.jpg';
-        //     }
-        // }
+        function setPanels()
+        {
+        var windowWidth = window.innerWidth;
+            if(windowWidth < 1001)
+            {
+                document.getElementById('bannerT2').src = 'assets/images/mainscreenmobile.jpg';
+            }
+            else
+            {
+                document.getElementById('bannerT2').src = 'assets/images/main-screen.jpg';
+            }
+        }
     </script>
 
     <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
@@ -83,7 +83,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/main.css?ver=1.5" />
+    <link rel="stylesheet" href="assets/css/main.css?ver=1.9" />
     
 </head>
 
@@ -94,7 +94,7 @@
                 <div class="HeroNav">
                     <div class="Logo">
                         <a href="javascript:void(0)" class="scrollto"  data-attr-scroll="section1">
-                        <img class="logoImaeg" src="assets/images/logo.png" />
+                        <img  class="logoImaeg" src="assets/images/logo.png" />
                         </a>
                     </div>
                     <div class="MenuWrp desk-only">
@@ -130,7 +130,7 @@
             </div>
         </div>
         <div class="HeroBanner" id="section1">
-            <img class="img-full" src="assets/images/main-screen.jpg" />
+            <img id="bannerT2" class="img-full" src="" />
             <div class="Layer2">
                 <div>
                     <div class="container">
@@ -286,8 +286,10 @@
                         <img class="deskh" src="assets/images/partyLeft.jpg"/>
                         <div class="PartyTextBlock">
                             <div>
+                            <div class="Latr">
                                 <div class="Ap1"  data-aos="fade-up">KICK OFF</div>
-                            <div class="Ap2"  data-aos="fade-up">THE PARTY</div>
+                                <div class="Ap2"  data-aos="fade-up">THE PARTY</div>
+                            </div>
                             <div class="S3Sb1 "  data-aos="fade-up">
                                 <div>
                                     The Official FIVE Football Party brings you 28 days of pure football fever. Catch all 64 games live on our 20 large screens. 
