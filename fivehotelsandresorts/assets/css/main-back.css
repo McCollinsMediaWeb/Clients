@@ -442,125 +442,7 @@ color: #000;
 .mobile-only{
     display: none;
 }
-.slick-prev, .slick-next{
-    width: 50px;
-    height: 50px;
-}
-.slick-next {
-    right: -50px;
-}
-.section5{
-    background-color: #BFE617 !important;
-    overflow: hidden;
-}
-.section5 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.positionRelative{
-    position: relative;
-}
-.PartyTextBlock{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 150px 60px;
-    text-align: left;
-}
-.Ap1{
-    text-align: left;
-    font-size: 80px;
-    color: #BFE617;
-    background-color: #000;
-    display: inline-block;
-}
-.Ap2{
-    text-align: left;
-    font-size: 80px;
-    margin-bottom: 50px;
-}
-@media only screen and (min-width: 1900px) {
-    .Layer2{
-        display: flex;
-        align-items: center;
-        height: 100%;
-        justify-content: center;
-    }
-    .Layer2 .container{
-        width: 1600px;
-    }
-    .T1{
-        font-size: 85px;
-    }
-    .container{
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-    .T2{
-        font-size: 25px;
-    }
-    .T3{
-        font-size: 21px;
-    }
-    .section4::after {
-        height: 800px;
-        width: 421px;
-    }
-    .ViewMenuBtn {
-        background-color: #fff;
-        padding: 30px;
-        display: inline-block;
-        border-radius: 30px;
-        color: #000;
-        border-radius: 80px;
-        min-width: 360px;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 30px;
-    }
-    .section3:after {
-        content: "";
-        background-image: url(../images/boots.png);
-        width: 408px;
-        height: 273px;
-        position: absolute;
-        right: 20px;
-        top: -130px;
-        background-size: 100% 100%;
-    }
-    .S3Sb1 div {
-        font-size: 26px;
-    }
-}
 @media only screen and (max-width: 1000px) {
-    .PartyTextBlock{
-        padding: 20px;
-    }
-    .Ap1{
-        font-size: 25px;
-        margin: 0px 15px;
-    }
-    .deskh{
-        min-height: 450px;
-    }
-    .Ap2 {
-        text-align: left;
-        font-size: 25px;
-        margin-bottom: 10px;
-        padding: 0px 15px;
-    }
-    .S3Sb1 div{
-        font-size: 16px;
-    }
-    .section5 .container{
-        padding: 0 !important;
-    }
     .mobile-only{
         display: block;
     }
@@ -691,7 +573,7 @@ color: #000;
     }
     .PositionFixed {
         right: 5px;
-        bottom: 60px;
+        bottom: 110px;
     }
     .SliderBox {
         padding: 10px 0px;
@@ -791,11 +673,137 @@ color: #000;
     .socialBox{
         margin-bottom: 60px;
     }
-    .img-full {
-        min-height: 5vh;
-    }
-    .Img-player img {
-        width: 100%;
-    }
 }
 
+.product-list{
+
+    overflow: hidden;
+    width: 100%;
+}
+.FicutureWrp .row1 {
+   display: flex;
+}
+.FicutureWrp .row1 .col-md-2{
+    flex: 0 0 120px;
+    max-width: 120px;
+    padding: 0px 8px;
+}
+.rotation-wrapper-outer {
+    display: table;
+  }
+  .rotation-wrapper-inner {
+    padding: 50% 0;
+    height: 0;
+  }
+  .element-to-rotate {
+    display: block;
+    transform-origin: top left;
+    /* Note: for a CLOCKWISE rotation, use the commented-out
+       transform instead of this one. */
+    transform: rotate(-90deg) translate(-100%);
+    /* transform: rotate(90deg) translate(0, -100%); */
+    margin-top: -50%;
+  
+    /* Not vital, but possibly a good idea if the element you're rotating contains
+       text and you want a single long vertical line of text and the pre-rotation
+       width of your element is small enough that the text wraps: */
+    white-space: nowrap;
+    font-size: 13px;
+    position: relative;
+    left: 40px;
+  }
+  .MatchQt{
+    font-size: 17px;
+    
+    padding: 5px 0px;
+    margin-bottom: 15px;
+  }
+  .groupMatches .MatchQt{
+    color: #50145c;
+    border-bottom: 2px solid #50145c;
+  }
+  .groupMatches .element-to-rotate{
+    color: #50145c;
+  }
+  .hexagon {
+    background: #50145c;
+    -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    height: 130px;
+  width: 100px;
+  color: #fff;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.ah1{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.ah2{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.ah3{
+    font-size: 13px;
+    position: relative;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+}
+.ah3::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.ah3 span{
+    background-color: #50145c;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.ah4{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.ah5{
+    font-size: 13px;
+}
+  
+.positionRelative{
+    position: relative;
+}
+.scrollableHorizontal{
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+.FicutureWrp .row1.St1{
+    position: relative;
+}
+
+.FicutureWrp .row1.St1 .col-md-2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid #50145c;
+}
+.FicutureWrp .row1.St2 .col-md-2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid #50145c;
+}
+.FicutureWrp .row1.St3 .col-md-2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid #50145c;
+}
+.Tr1{
+    color: #50145c;
+}
