@@ -377,10 +377,13 @@
         .HeroC{
             min-height: 100vh;
             background-color: #e7eff1;
-            padding: 60px 0px;
+            padding: 40px 0px;
+            background-size: cover;
+            background-position: right bottom;
         }
         .Logo img{
             max-width: 220px;
+            margin-bottom: 25px;
         }
         .HeroC1 {
             font-size: 42px;
@@ -399,19 +402,19 @@
         .IconLink{
             display: flex;
             border: 2px solid;
-            padding: 15px;
+            padding: 13px 15px;
             border-bottom-left-radius: 25px;
             border-top-right-radius: 25px;
             align-items: center;
             cursor: pointer;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             transition: 0.3s;
         }
-        .IconLink::nth-last-child(2) ,  .IconLink:last-child{
+        .col-md-6:nth-last-child(2)  .IconLink ,  .col-md-6:last-child  .IconLink{
             margin-bottom: 0;
         }
         .IconLink:hover{
-            background-color: #FFA15F;
+            background-color: #FF6B00;
             border-bottom-left-radius: 0px;
             border-top-right-radius: 0px;
             border-bottom-right-radius: 25px;
@@ -446,14 +449,49 @@
         }
         .IconLink  .IconLinkR{
             flex: auto;
-            line-height: 1.2;
-            font-size: 18px;
+            line-height: 1.1;
+            font-size: 17px;
             letter-spacing: 1px;
             font-weight: 600;
         }
         .HeroC .Box1{
             margin: 0;
             height: 100%;
+            background-color: #fff;
+        }
+        body .HeroC .Box1Txt1{
+            color: #404040 !important;
+    margin-bottom: 30px !important;
+    text-transform: capitalize;
+    font-size: 19px !important;
+        }
+        .HeroC .InptTp1 input, 
+        .HeroC .InptTp1 select {
+            border: 2px solid #404040 !important;
+            border-radius: 30px !important;
+            color: #404040 !important;
+            font-size: 14px !important;
+            padding: 7px 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .HeroC .InptTp1 input::placeholder {
+        color: #404040;
+        opacity: 1; 
+        }
+
+        .HeroC .InptTp1 input:-ms-input-placeholder { 
+            color: #404040;
+        }
+
+        .HeroC .InptTp1 input::-ms-input-placeholder { 
+            color: #404040;
+        }
+        .gfield .iti.iti--allow-dropdown input{
+            margin-bottom: 10px !important;
+        }
+        .HeroC .gform_footer input.button{
+            border: 2px solid #FF6B00 !important;
+            background: #FF6B00 !important;
         }
     </style>
 
@@ -499,7 +537,7 @@
     <section class="pageWrapper" id="well">
 
 
-        <div class="HeroC">
+        <div class="HeroC" style="background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/Biz_Banner_Concierge_1920x1102px_1.jpg);">
             <div class="container">
                 <div class="Logo">
                     <img src="https://mccollinsmediaweb.github.io/Clients/BIZ/logo.png"/>
@@ -1198,7 +1236,7 @@
 
 
 
-            jQuery(".BtnS1").click(function () {
+            jQuery(".BtnS1 , .servicebutton").click(function () {
                 $('#input_13_15').val($(this).data('val')).trigger('change');
                 jQuery('html, body').animate({
 
@@ -1224,23 +1262,11 @@
 
 
             if (jQuery(window).width() < 600) {
-                $(".singleitem").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/main/klc1.jpg");
-                $(".mob1").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m1.jpg");
-                $(".mob2").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m2.jpg");
-                $(".mob3").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m3.jpg");
-                $(".mob4").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m4.jpg");
-                $(".mob5").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m5.jpg");
-                $(".mob6").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m6.jpg");
+                console.log("mobile")
 
 
             } else {
-                $(".singleitem").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/main/klcd1.jpg");
-                $(".mob1").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w1.jpg");
-                $(".mob2").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w2.jpg");
-                $(".mob3").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w3.jpg");
-                $(".mob4").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w4.jpg");
-                $(".mob5").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w5.jpg");
-                $(".mob6").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w6.jpg");
+                console.log("desktop")
 
             }
 
@@ -1293,27 +1319,7 @@
 
             });
             
-            jQuery( ".hero__person:first-child " ).addClass("active")
-            jQuery( ".hero__person " ).mouseover(
-              function() {
-                  jQuery( ".hero__person:first-child " ).removeClass("active")
-                jQuery( this ).addClass("active");
-                 
-              }
-             );
-             jQuery( ".hero__person " ).mouseout(
-              function() {
-                jQuery( this ).removeClass("active");
-                jQuery( ".hero__person:first-child " ).addClass("active")
-                
-              }
-             );
-             jQuery( ".hero__person " ).mouseleave(
-              function() {
-                jQuery( this ).find(".ServiceDesc").removeClass("active")
-                
-              }
-             );
+            
 
             jQuery('.FeaturesSlider1').slick({
 
@@ -1491,51 +1497,12 @@
 
 
     <script>
-       
-
-        wow.init();
         jQuery(document).ready(function ($) {
-            $("#input_11_2").val("");
-            $(".Preloader").addClass("hidden");
-
-
-
+            $("#input_11_2").val("How can we support you");
         });
     </script>
 
 
-
-
-
-
-
-
-
-    <!-- <div class="FixedNav">
-
-    <a href="#">
-
-      
-
-          <img src="https://jbeanijas.github.io/landing1/assets/images/callbtn.png" alt="">
-
-    </a>
-
-    <a href="#">
-
-       
-
-        <img src="https://jbeanijas.github.io/landing1/assets/images/whatsappbtn.png" alt=""> 
-
-    </a>
-
-    <a href="#">
-
-        <img src="https://jbeanijas.github.io/landing1/assets/images/emailbtn.png" alt="">
-
-    </a>
-
-</div> -->
 
 
 
