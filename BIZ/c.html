@@ -384,7 +384,7 @@
         }
         .HeroC1 {
             font-size: 42px;
-            line-height: 1.3;
+            line-height: 1.2;
         }
         .HeroC1 span{
             color: #8376B2;
@@ -398,18 +398,62 @@
         }
         .IconLink{
             display: flex;
+            border: 2px solid;
+            padding: 15px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            align-items: center;
+            cursor: pointer;
+            margin-bottom: 20px;
+            transition: 0.3s;
+        }
+        .IconLink::nth-last-child(2) ,  .IconLink:last-child{
+            margin-bottom: 0;
+        }
+        .IconLink:hover{
+            background-color: #FFA15F;
+            border-bottom-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 25px;
+            border-top-left-radius: 25px;
         }
         .IconLink  .IconLinkL{
-            flex: 0 0 55px;
+            flex: 0 0 60px;
         }
         .IconLink  .IconLinkL span{
-            width: 45px;
-            height: 45px;
+            width: 38px;
+            height: 38px;
             background-size: 100% 100%;
             display: inline-block;
         }
+        .IconLink  .IconLinkL span.visa{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/visa.png);
+        }
+        .IconLink  .IconLinkL span.id{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/id.png);
+        }
+        .IconLink  .IconLinkL span.work-space{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/work-space.png);
+        }
+        .IconLink  .IconLinkL span.bank{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/bank.png);
+        }
+        .IconLink  .IconLinkL span.accounts{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/accounts.png);
+        }
+        .IconLink  .IconLinkL span.certificate{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/certificate.png);
+        }
         .IconLink  .IconLinkR{
             flex: auto;
+            line-height: 1.2;
+            font-size: 18px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        .HeroC .Box1{
+            margin: 0;
+            height: 100%;
         }
     </style>
 
@@ -474,9 +518,49 @@
                                     <div class="col-md-6">
                                         <div class="IconLink">
                                             <div class="IconLinkL">
-                                                <span class="IconImage">&nbsp;</span>
+                                                <span class="IconImage accounts">&nbsp;</span>
                                             </div>
-                                            <div class="IconLinkR"></div>
+                                            <div class="IconLinkR">Corporate Bank <br/> Account Opening</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="IconLink">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage visa">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Dependent And <br/> Sponsorship Visa</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="IconLink">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage id">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Emirates Id And <br/> Medical Registration</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="IconLink">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage bank">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Tax And Accounting <br/> Services</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="IconLink">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage certificate">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Document <br/> Attestation</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="IconLink">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage work-space">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Co-working And <br/> Office Space Solutions</div>
                                         </div>
                                     </div>
                                 </div>
