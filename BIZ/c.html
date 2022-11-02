@@ -409,16 +409,22 @@
             cursor: pointer;
             margin-bottom: 10px;
             transition: 0.3s;
+            color: #404040;
+        }
+        .IconLink:visited {
+            color: #404040;
         }
         .col-md-6:nth-last-child(2)  .IconLink ,  .col-md-6:last-child  .IconLink{
             margin-bottom: 0;
         }
-        .IconLink:hover{
+        .IconLink:hover ,  .IconLink.active{
             background-color: #FF6B00;
+            border: 2px solid #fff;
             border-bottom-left-radius: 0px;
             border-top-right-radius: 0px;
             border-bottom-right-radius: 25px;
             border-top-left-radius: 25px;
+            color: #fff;
         }
         .IconLink  .IconLinkL{
             flex: 0 0 60px;
@@ -447,6 +453,32 @@
         .IconLink  .IconLinkL span.certificate{
             background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/certificate.png);
         }
+
+        .IconLink:hover  .IconLinkL span.visa,
+        .IconLink.active  .IconLinkL span.visa{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/hvisa.png);
+        }
+        .IconLink:hover  .IconLinkL span.id,
+        .IconLink.active  .IconLinkL span.id{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/hid.png);
+        }
+        .IconLink:hover  .IconLinkL span.work-space,
+        .IconLink.active  .IconLinkL span.work-space{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/hwork-space.png);
+        }
+        .IconLink:hover  .IconLinkL span.bank,
+        .IconLink.active  .IconLinkL span.bank{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/hbank.png);
+        }
+        .IconLink:hover  .IconLinkL span.accounts,
+        .IconLink.active  .IconLinkL span.accounts{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/haccounts.png);
+        }
+        .IconLink:hover  .IconLinkL span.certificate,
+        .IconLink.active  .IconLinkL span.certificate{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/hcertificate.png);
+        }
+
         .IconLink  .IconLinkR{
             flex: auto;
             line-height: 1.1;
@@ -492,6 +524,37 @@
         .HeroC .gform_footer input.button{
             border: 2px solid #FF6B00 !important;
             background: #FF6B00 !important;
+        }
+        @media only screen and (max-width: 786px) {
+            .HeroC1 {
+                line-height: 1.2;
+                font-size: 23px;
+            }
+            .HeroC .row .col-md-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .col-md-6:nth-last-child(2) .IconLink, .col-md-6:last-child .IconLink {
+                margin-bottom: 10px;
+            }
+            .HeroC2 {
+                font-size: 17px;
+                margin: 10px 0px;
+            }
+            body .HeroC .Box1Txt1 {
+                margin-bottom: 13px !important;
+                font-size: 17px !important;
+            }
+            .Logo img {
+                max-width: 220px;
+                margin-bottom: 15px;
+            }
+            .HeroC {
+                background-image: none !important;
+            }
+            .HeroC .Box1 {
+                margin-top: 20px;
+            }
         }
     </style>
 
@@ -551,55 +614,56 @@
         
                             </div>
                             <div class="HeroC2 font-medium">One Stop Solution For All Your Business Needs</div>
+                            <div class="mobileimage">&nbsp;</div>
                             <div class="IconLinkWrp">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="IconLink">
+                                        <a href="#contactForm" class="IconLink servicebutton" data-val="Corporate banking">
                                             <div class="IconLinkL">
                                                 <span class="IconImage accounts">&nbsp;</span>
                                             </div>
                                             <div class="IconLinkR">Corporate Bank <br/> Account Opening</div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="IconLink">
+                                        <a href="#contactForm" class="IconLink servicebutton" data-val="Visa">
                                             <div class="IconLinkL">
                                                 <span class="IconImage visa">&nbsp;</span>
                                             </div>
                                             <div class="IconLinkR">Dependent And <br/> Sponsorship Visa</div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="IconLink">
+                                        <a href="#contactForm" class="IconLink servicebutton" data-val="Medical and Emirates ID">
                                             <div class="IconLinkL">
                                                 <span class="IconImage id">&nbsp;</span>
                                             </div>
                                             <div class="IconLinkR">Emirates Id And <br/> Medical Registration</div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="IconLink">
+                                        <a href="#contactForm" class="IconLink servicebutton" data-val="Tax and Accounting">
                                             <div class="IconLinkL">
                                                 <span class="IconImage bank">&nbsp;</span>
                                             </div>
                                             <div class="IconLinkR">Tax And Accounting <br/> Services</div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="IconLink">
+                                        <a href="#contactForm" class="IconLink servicebutton" data-val="Documents Attestation">
                                             <div class="IconLinkL">
                                                 <span class="IconImage certificate">&nbsp;</span>
                                             </div>
                                             <div class="IconLinkR">Document <br/> Attestation</div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="IconLink">
+                                        <a href="#contactForm" class="IconLink servicebutton" data-val="Co-working and office space solution">
                                             <div class="IconLinkL">
                                                 <span class="IconImage work-space">&nbsp;</span>
                                             </div>
                                             <div class="IconLinkR">Co-working And <br/> Office Space Solutions</div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1237,6 +1301,8 @@
 
 
             jQuery(".BtnS1 , .servicebutton").click(function () {
+                $(".servicebutton").removeClass("active");
+                $(this).addClass("active");
                 $('#input_13_15').val($(this).data('val')).trigger('change');
                 jQuery('html, body').animate({
 
@@ -1263,8 +1329,8 @@
 
             if (jQuery(window).width() < 600) {
                 console.log("mobile")
-
-
+                let mobileimage = '<img class="mobileImage" src="https://www.businessincorporationzone.ae/wp-content/uploads/2022/11/iphone.png" style="width:100%;"/>';
+                $(".mobileimage").append(mobileimage)
             } else {
                 console.log("desktop")
 
