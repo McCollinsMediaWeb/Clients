@@ -1,4 +1,5 @@
-<?php /* Template Name: test-mccollins */ ?>
+<?php /* Template Name: concierge-desktop */ ?>
+
 <html class="no-js" lang="en" dir="ltr">
 
 <head>
@@ -84,7 +85,43 @@
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <style>
-        
+        .Preloader.hidden {
+            left: -100% !important;
+        }
+
+        .Preloader span {
+            display: inline-block;
+            position: relative;
+            animation: loading 2s infinite;
+            transition: 0.8s;
+        }
+
+        @keyframes loading {
+            0% {
+                opacity: 1;
+                top: -10px;
+            }
+
+            20% {
+                opacity: 0.8;
+                top: 10px;
+            }
+
+            80% {
+                opacity: 0.6;
+                top: -10px;
+            }
+
+            90% {
+                opacity: 0.4;
+                top: 10px;
+            }
+
+            100% {
+                opacity: 0.2;
+                top: -10px;
+            }
+        }
 
         .DesktopOnly {
             display: block;
@@ -503,9 +540,12 @@
     font-size: 17px;
 }
     </style>
-    <style type="text/css">
-        
-    </style>
+
+    <script src="https://jbeanijas.github.io/landing1/assets/js/jquery.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://jbeanijas.github.io/landing1/assets/slick/slick.css">
+
+    <link rel="stylesheet" type="text/css" href="https://jbeanijas.github.io/landing1/assets/slick/slick-theme.css">
 
     
 

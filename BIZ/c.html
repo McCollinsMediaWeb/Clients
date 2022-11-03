@@ -1,4 +1,4 @@
-<?php /* Template Name: test-mccollins */ ?>
+<?php /* Template Name: concierge-desktop */ ?>
 <html class="no-js" lang="en" dir="ltr">
 
 <head>
@@ -380,6 +380,7 @@
             padding: 40px 0px;
             background-size: cover;
             background-position: right bottom;
+            transition: 0.5s;
         }
         .Logo img{
             max-width: 220px;
@@ -525,14 +526,14 @@
             border: 2px solid #FF6B00 !important;
             background: #FF6B00 !important;
         }
-        .mobileimage{
-            display: none;
-        }
+        .desktop-only{
+                display: block !important;
+            }
+            .mobile-only{
+                display: none  !important;
+            }
         @media only screen and (max-width: 786px) {
-            .mobileimage{
-            display: block;
-            margin: 10px 0px;
-        }
+            
             .HeroC1 {
                 line-height: 1.2;
                 font-size: 23px;
@@ -556,11 +557,18 @@
                 max-width: 220px;
                 margin-bottom: 15px;
             }
-            .HeroC {
+            .HeroC .Box1 {
+                margin-top: 10px;
+            }
+            .HeroC{
                 background-image: none !important;
             }
-            .HeroC .Box1 {
-                margin-top: 20px;
+            .desktop-only{
+                display: none !important;
+            }
+            .mobile-only{
+                display: block  !important;
+                margin-top: 45px;
             }
         }
     </style>
@@ -621,8 +629,7 @@
         
                             </div>
                             <div class="HeroC2 font-medium">One Stop Solution For All Your Business Needs</div>
-                            <div class="mobileimage">&nbsp;</div>
-                            <div class="IconLinkWrp">
+                            <div class="IconLinkWrp desktop-only">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <a href="#contactForm" class="IconLink servicebutton" data-val="Corporate banking">
@@ -711,6 +718,60 @@
     
                             </div>
     
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="IconLinkWrp mobile-only">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="#contactForm" class="IconLink servicebutton" data-val="Corporate banking">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage accounts">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Corporate Bank <br/> Account Opening</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#contactForm" class="IconLink servicebutton" data-val="Visa">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage visa">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Dependent And <br/> Sponsorship Visa</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#contactForm" class="IconLink servicebutton" data-val="Medical and Emirates ID">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage id">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Emirates Id And <br/> Medical Registration</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#contactForm" class="IconLink servicebutton" data-val="Tax and Accounting">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage bank">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Tax And Accounting <br/> Services</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#contactForm" class="IconLink servicebutton" data-val="Documents Attestation">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage certificate">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Document <br/> Attestation</div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#contactForm" class="IconLink servicebutton" data-val="Co-working and office space solution">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage work-space">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Co-working And <br/> Office Space Solutions</div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1335,12 +1396,9 @@
 
 
             if (jQuery(window).width() < 600) {
-                console.log("mobile")
-                let mobileimage = '<img class="mobileImage" src="https://mccollinsmediaweb.github.io/Clients/BIZ/iphone.png" style="width:100%;"/>';
-                $(".mobileimage").append(mobileimage)
+                console.log("mobile");
             } else {
-                console.log("desktop")
-
+                console.log("desktop");
             }
 
             let userVideoydesktop = '<img src="https://www.businessincorporationzone.ae/wp-content/uploads/2022/10/Employees-Banner-31-08-2022-compressed.jpg" style="width:100%;"/>';
