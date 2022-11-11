@@ -1,0 +1,25 @@
+body{
+    background-color: #8376B2 !important;
+}
+.login h1 a{
+    display: none;
+}
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 34px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #97C6CA;
+    border: 1px solid #97C6CA;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+    border-radius: 25px;
+}
+.wp-core-ui .button-primary {
+    background: #8376b2;
+    border-color: #8376b2;
+}
+a,button{
+outline: none !important;
+box-shadow: none !important;
+}
