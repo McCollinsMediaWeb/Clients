@@ -46,6 +46,8 @@ jQuery(document).ready(function ($) {
     swipeToSlide: true,
     infinite: false,
   });
+  
+  
   jQuery(".FilterTp1").on('click', function(){
       jQuery(".FilterTp1").removeClass("active");
       jQuery(this).addClass("active");
@@ -141,6 +143,26 @@ jQuery(document).ready(function ($) {
     swipeToSlide: true,
     infinite: true,
   });
-  
+
+  jQuery(".ImageSwitcher").each(function() {
+    if (jQuery(window).width() < 600) {
+        mobileSrc = $(this).attr('data-mobile');
+        $(this)
+        .fadeOut(400, function() {
+            $(this).attr('src',mobileSrc);
+        })
+        .fadeIn(400);
+    }
+    else {
+      desktopSrc = jQuery(this).attr('data-desktop');
+      jQuery(this)
+        .fadeOut(400, function() {
+          jQuery(this).attr('src',desktopSrc);
+        })
+        .fadeIn(400);
+    }
+  });
  
+
+  jQuery('.select1').select2();
 });
