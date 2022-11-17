@@ -9,7 +9,7 @@
     display: none;
    }
    .HeaderNavL img {
-        max-width: 210px !important;
+        max-width: 170px !important;
     }
     .T1 {
         font-size: 35px;
@@ -777,5 +777,15 @@
     }
     .FullWidthImage img{
         min-height: 70vh;
+    }
+    .HeaderNav{
+        padding: 10px 0px !important;
+    }
+    .StickHeader .HeaderNavL img {
+        max-width: 170px;
+    }
+    .MenuBtn1 {
+        width: 30px;
+        height: 22px;
     }
 }

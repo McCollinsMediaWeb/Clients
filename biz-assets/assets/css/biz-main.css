@@ -29,11 +29,23 @@ a {
 .width-full {
     width: 100%;
 }
-
+.MenuBtn1{
+    background-image: url(../images/header/menu.png);
+    width: 35px;
+    height: 26px;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+.CloseBtn1{
+    background-image: url(../images/header/close.png);
+    width: 25px;
+    height: 25px;
+    background-size: 100% 100%;
+    display: inline-block;
+}
 .HeroImage {
     position: relative;
     overflow: hidden;
-    height: 100vh;
 }
 
 .HeroImage::after {
@@ -204,7 +216,7 @@ a {
 }
 
 .StickHeader .HeaderNavL img {
-    max-width: 170px;
+    max-width: 210px;
 }
 
 .StickHeader .HeaderNav {
@@ -253,6 +265,7 @@ a {
 
 .CloseClick {
     cursor: pointer;
+
 }
 
 .SideNavContent {
@@ -264,6 +277,8 @@ a {
     position: absolute;
     top: -45px;
     right: -45px;
+    height: 30px;
+    display: inline-block;
 }
 
 .CloseClick svg {

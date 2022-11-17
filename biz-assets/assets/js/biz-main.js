@@ -1,5 +1,9 @@
 jQuery(document).ready(function ($) {
-  console.log("ready!");
+
+  windowHeight = jQuery(window).innerHeight();
+  
+  jQuery('.HeroImage img').css('height', (windowHeight-1)+'px');
+
   jQuery(window).scroll(function () {
     var scroll = jQuery(window).scrollTop();
 
@@ -31,7 +35,7 @@ jQuery(document).ready(function ($) {
     });
   }
 
-  jQuery(".CloseClick svg, .MenuClick , .menudrop ,.MenuActive1").click(function () {
+  jQuery(".CloseClick, .MenuClick , .menudrop ,.MenuActive1").click(function () {
     jQuery("body").toggleClass("ActivePanel");
   });
 
