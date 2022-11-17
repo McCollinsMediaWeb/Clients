@@ -157,7 +157,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 97;
+    z-index: 8;
     transition: 0.3s;
 }
 
@@ -2359,4 +2359,256 @@ input:checked+.slider:before {
     min-width: 120px;
     margin: 5px 0px 20px 0px;
     border: 0px solid #fff !important;
+}
+.faqWrap{
+    padding: 60px 0px;
+}
+.FaqHeader .Prt4{
+    margin-top: 5px;
+}
+.FaqHeader .row{
+    align-items: center;
+}
+.FaqitemRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.FaqitemL{
+    flex: 0 0 500px;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 19px;
+    transition: 0.3s;
+}
+.Faqitemr{
+    flex: 0 0 50px;
+    background-color: #212121;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.FaqitemRow:hover{
+    color: #8376B2;
+}
+.FaqitemRow:hover .Faqitemr{
+    background-color: #8376B2;
+}
+.Faqitem{
+    padding: 20px 0px;
+    border-bottom: 1px solid #212121;
+}
+.Faq-items{
+    margin-top: 20px;
+}
+.FaqAnswer{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #8376b2;
+    display: none;
+}
+.Arrow21{
+    display: block;
+    background-image: url(../images/faq/arrowdown.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 14px;
+    margin-top: 5px;
+}
+.FaqitemRow.activefaq .Arrow21{
+    background-image: url(../images/faq/arrowup.png);
+    margin-top: 0;
+}
+.ReferWrp{
+    padding: 60px 0px;
+}
+.RfT1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #8376B2;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+.RfT2{
+    font-weight: 900;
+    font-size: 24px;
+}
+.RfT3{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.ReferStepRow{
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #F8F8F8;
+    margin-top: 20px;
+    display: flex;
+}
+.ReferStepRow .ReferStepL{
+    flex: auto;
+}
+.ReferStepRow .ReferStepR{
+    flex: 0 0 60px;
+    max-width: 60px;
+    color: #8376B2;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: right;
+}
+.StT1{
+    color: #8376B2;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+.StT2 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.StT2::before {
+    content: "";
+    background-image: url(../images/arrow2.png);
+    width: 45px;
+    height: 11px;
+    display: inline-block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+}
+.ContactFrm1.ReferForm{
+    padding-left: 0px;
+}
+.ContactFrm1.ReferForm input , .ContactFrm1.ReferForm select{
+    background-color: #F8F8F8;
+    border: 0px solid #e4e4e4;
+    margin-bottom: 10px;
+}
+.ContactFrm1.ReferForm .gform_wrapper.gravity-theme .gfield_label{
+    color: #8376B2;
+    margin-bottom: 10px;
+}
+.FrmLft{
+    padding-left: 50px;
+}
+.ContactFrm1.ReferForm .gform_wrapper.gravity-theme .gform_footer input {
+    min-width: 300px;
+}
+.TrmBoxWrp{
+    padding: 60px 0px;
+}
+.TrmT1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #8376B2;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+.TermBlock{
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #F8F8F8;
+    transform: 0.4s;
+}
+.TermBlockT1{
+    font-weight: 900;
+    line-height: 1.3;
+    font-size: 24px;
+    color: #8376B2;
+    margin-bottom: 20px;
+}
+.TermBlockT2{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.TermBlockT3{
+    background-color: #8376B2;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 30px;
+}
+.TermBlock:hover{
+    background-color: #8376B2;
+}
+.TermBlock:hover .TermBlockT1{
+    color: #fff;
+}
+.TermBlock:hover .TermBlockT2{
+    color: #fff;
+}
+.TermBlock:hover .TermBlockT3{
+    background-color: #97C6CA;
+}
+.TermasContentArea{
+    font-style: italic;
+    line-height: 1.3;
+    margin-top: 30px;
+}
+.Trm1{
+    margin-bottom: 20px;
+}
+
+.spacer1 {
+    background-image: url(../images/border1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 3px;
+    display: block;
+    margin: 30px 0px;
+}
+.Trm2{
+    font-size: 45px;
+    font-weight: 900;
+    color: #8376B2;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+.Trm3{
+    font-weight: 900;
+    color: #8376B2;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.menudrop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 22;
+    display: none;
+    cursor: pointer;
+}
+.ActivePanel .menudrop{
+    display: block;
+}
+.home .footer{
+display: none;
+}
+.mobile-only{
+    display: none;
+}
+.desktop-only{
+display: block !important;
+}
+.Bt1 {
+    font-size: 37px;
 }

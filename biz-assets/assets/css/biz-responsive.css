@@ -1,0 +1,781 @@
+@media only screen and (max-width: 1000px) {
+    .mobile-only{
+        display: block;
+    }
+    .desktop-only{
+        display: none !important;
+    }
+   .HeaderNavM{
+    display: none;
+   }
+   .HeaderNavL img {
+        max-width: 210px !important;
+    }
+    .T1 {
+        font-size: 35px;
+    }
+    .layer1{
+        padding: 15px;
+    }
+    .Cst-select-selected {
+        font-size: 23px;
+        padding: 10px 40px;
+    }
+    .pop3active{
+        overflow: hidden;
+    }
+    .layer1 .Cst-select-options{
+        display: none !important;
+    }
+    .mobilepop1{
+        position: fixed;
+        left: 0;
+        bottom: -200%;
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        z-index: 992;
+        border-radius: 0;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .pop3active .mobilepop1{
+        bottom: 0;
+    }
+    .pop3active .contact-pop-up .OverLay {
+        display: block;
+    }
+    .Cst-select-options a {
+        padding: 15px 0px;
+        font-size: 24px;
+    }
+    .Popup1 {
+        padding: 20px;
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    .SideNav{
+        width: 100%;
+        padding: 55px 55px;
+
+    }
+    .NavBox a{
+        font-size: 24px;
+    }
+    .ContactFrm1 .gform_wrapper.gravity-theme input[type=color], .ContactFrm1 .gform_wrapper.gravity-theme input[type=date], .ContactFrm1 .gform_wrapper.gravity-theme input[type=datetime-local], .ContactFrm1 .gform_wrapper.gravity-theme input[type=datetime], .ContactFrm1 .gform_wrapper.gravity-theme input[type=email], .ContactFrm1 .gform_wrapper.gravity-theme input[type=month], .ContactFrm1 .gform_wrapper.gravity-theme input[type=number], .ContactFrm1 .gform_wrapper.gravity-theme input[type=password], .ContactFrm1 .gform_wrapper.gravity-theme input[type=search], .ContactFrm1 .gform_wrapper.gravity-theme input[type=tel], .ContactFrm1 .gform_wrapper.gravity-theme input[type=text], .ContactFrm1 .gform_wrapper.gravity-theme input[type=time], .ContactFrm1 .gform_wrapper.gravity-theme input[type=url], .ContactFrm1 .gform_wrapper.gravity-theme input[type=week], .ContactFrm1 .gform_wrapper.gravity-theme select, .ContactFrm1 .gform_wrapper.gravity-theme textarea{
+        padding: 10px 20px;
+    }
+    .Common-sec-1 {
+        padding: 30px 0px;
+    }
+    .T2 br{
+        display: none;
+    }
+    .T2 {
+        font-size: 37px;
+    }
+    .T4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .T7 {
+        font-size: 37px;
+    }
+    .T8{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .FltBtns {
+        justify-content: start;  
+        margin-bottom: 15px;
+        overflow-x: scroll;
+        -ms-overflow-style: none; 
+        scrollbar-width: none;
+    }
+    .FltBtns::-webkit-scrollbar {
+        display: none;
+    }
+    .JuriSliderItem.active .JItem1 {
+        width: auto;
+    }
+    .JItem1 {
+        width: 100%;
+    }
+    .JuriSliderItem.active .ContenTTp1 {
+        display: block;
+    }
+    .JuriSliderItem.active .ContenTTp1 .Ct2 {
+        width: 100%;
+        text-align: left;
+    }
+    .JuriSliderItem.active .ContenTTp1 .Ct1 {
+        width: 100%;
+        font-size: 28px;
+        margin-bottom: 10px;
+        line-height: 1.2;
+    }
+    .ContenTTp1 {
+        left: 20px;
+        bottom: 30px;
+    }
+    .JuriSliderWrp{
+        margin: 0px -20px;
+    }
+    .JuridictionBox {
+        padding-bottom: 35px;
+    }
+    .cst1 .slick-dots li {
+        width: 13px;
+        height: 13px;
+        margin: 0px 3px;
+    }
+    .T10 {
+        font-size: 41px;
+    }
+    .T11 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .HcanHelp-Slider-wrp {
+        margin-top: 20px;
+    }
+    .BoxSt1L svg {
+        max-width: 90px;
+        max-height: 120px;
+    }
+    .BoxSt1 .BoxSt1L {
+        flex: 0 0 100px;
+        max-width: 100px;
+    }
+    .BoxSt1 {
+        position: relative;
+    }
+    .BoxSt1 .T13:before {
+        content: "";
+        background-image: url(../images/arrow2.png);
+        width: 60px;
+        height: 14px;
+        display: inline-block;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        position: relative;
+        top: 3px;
+    }
+    .BoxSt1 .T13:after , .T10:after {
+        content: none !important;
+    }
+    .Popup2 {
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .HcanHelp-Slider-Item {
+        margin-right: 0;
+    }
+    .BoxSt1{
+        margin-bottom: 15px;
+    }
+    .Lnk1 {
+        padding: 13px 18px;
+        font-size: 18px;
+        display: block;
+        margin-top: 15px;
+        padding-right: 60px;
+        text-align: center;
+    }
+    .HowCan-Wrap {
+        padding: 30px 0px;
+    }
+    .StpTp1Wrp {
+        margin-top: 0;
+        padding-bottom: 20px;
+        padding-top: 35px;
+    }
+    .T15 {
+        font-size: 37px;
+    }
+    .StpTp1Wrp .slick-dotted.slick-slider {
+        margin-bottom: 0;
+        margin: 0px -20px;
+    }
+    .StpTp1Box{
+        margin-top: 0px;
+    }
+    .StpTp1Wrp .Lnk1 {
+        margin-top: 70px;
+    }
+    .slick-active .StpTp1Box {
+        margin-top: 0px;
+        background-color: #8376B2 !important;
+    }
+    .slick-active .StpTp1Box .StpTp1Box-Hd1, 
+    .slick-active .StpTp1Box .StpTp1Box-sec-2, 
+    .slick-active .StpTp1Box .StpTp1Box-Hd1L svg *, 
+    .slick-active .StpTp1Box .ReadMoreB1 {
+        color: #fff;
+        fill: #fff;
+    }
+    .CostCalculator .container{
+        padding: 0px 20px;
+    }
+    .T21 {
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+    .ContactFrm1 {
+        padding-left: 0;
+    }
+    .T20 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .ContactFrm1 .gform_wrapper.gravity-theme .gform_footer input {
+        padding: 12px 45px;
+        width: 100%;
+    }
+    .T22 {
+        font-size: 18px;
+        margin: 0px 0px;
+    }
+    .CostContent {
+        padding-bottom: 20px;
+    }
+    .T25 {
+        font-size: 37px;
+    }
+    .BankingPartners {
+        padding: 20px 0px 40px 0px;
+    }
+    .T26 {
+        font-size: 18px;
+        margin: 10px 0px 0px 0px;
+    }
+    .BankSliderItem img {
+        height: 120px;
+        width: 100%;
+        padding: 0px 10px;
+        margin: 0 auto;
+        margin-bottom: 0;
+    }
+    .SuccessStories {
+        padding: 20px 0px;
+    }
+    .T31 {
+        font-size: 18px;
+    }
+    .SuccessStories .T3 {
+        margin-bottom: 15px;
+    }
+    .MobileFrameBox{
+        margin: 15px 0px 30px 0px;
+    }
+    .blogRow {
+        padding: 30px 0px;
+    }
+    .SuccessStories .Lnk1 {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BlogGrids {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        -ms-overflow-style: none; 
+        scrollbar-width: none;
+        margin: 0;
+    }
+    .BlogGrids::-webkit-scrollbar {
+        display: none;
+    }
+    .BlogGrids .col-md-4{
+        flex: 0 0 80%;
+        max-width: 80%;
+        padding: 0 5px;
+    }
+    .Bt1 {
+        font-size: 37px;
+    }
+    .BlgHeader {
+        margin-bottom: 15px;
+    }
+    .BlogGrids .BlogItem {
+        padding: 15px;
+    }
+    .BlogItemT {
+        font-size: 22px;
+        margin: 15px 0px 5px 0px;
+    }
+    .Bt2 {
+        font-size: 37px;
+        margin: 20px 0px;
+    }
+    .mobile-content .BlogItem {
+        padding: 15px;
+    }
+    .T5 {
+        font-size: 30px;
+        text-align: left !IMPORTANT;
+        margin-top: 20px;
+    }
+    .FooterLinks a {
+        font-size: 14px;
+        margin-bottom: 4px;
+        display: inline-block;
+        padding-left: 0;
+        width: 49.4%;
+    }
+    .AddressT {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .Flink {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .footerLogo img {
+        max-width: 235px;
+    }
+    .footerBottom {
+        font-size: 12px;
+        padding-bottom: 85px;
+    }
+    .footerMain {
+        padding: 30px 0px;
+    }
+    .FooterLinks{
+        margin: 20px 0px;
+    }
+    .T6 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .footer .Styled-Border {
+        margin: 25px 0px;
+    }
+    .halo-sticky-toolbar-mobile {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 8;
+        box-shadow: 0 0 9px #0000001f;
+        transition: transform .6s;
+        background: #fff;
+        border: 1px solid #fff;
+        overflow: hidden;
+    }
+    .bottom-bar {
+        padding: 3px 15px;
+        min-height: 60px;
+    }
+    .bottom-bar--list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        align-items: center;
+    }
+    .bottom-bar--list li>a {
+        padding: 7px 2px;
+        display: block;
+        pointer-events: auto;
+        text-align: center;
+        color: #212121;
+    }
+    .bottom-bar--list li>a {
+        padding: 7px 2px;
+        display: block;
+        pointer-events: auto;
+        text-align: center;
+        color: #212121;
+    }
+    .bottom-bar--list .icon+.text {
+        margin-top: 6px;
+        line-height: 1;
+        font-size: 11px;
+    }
+    .bottom-bar--list .icon img {
+        max-width: 25px;
+    }
+    .StpTp1Wrp .StpTp1Item {
+        padding: 0;
+    }
+    .StpTp1Wrp .StpTp1Item .StpTp1Box {
+        padding: 20px;
+    }
+    .HeroImage::after{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .mobSt1{
+        margin: 30px 0px;
+    }
+    .Vt1{
+        font-size: 37px;
+    }
+    .Vt2{
+        font-size: 18px;
+    }
+    .ourMissionWrp .Vt1:after , .T35:after{
+        content: none;
+    }
+    .GridStyle1Item {
+        padding: 40px 40px;
+    }
+    .GsiT1 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .GsiT2 , .T36{
+        font-size: 18px;
+    }
+    .T35 {
+        font-size: 37px;
+    }
+    .JItem1{
+        margin-top: 15px;
+    }
+    .T35 span br , .T2 br{display: none;}
+    .T35 span{
+        padding: 0;
+    }
+    .AchievementBlock {
+        padding: 30px 0px;
+    }
+    .AcBlock .col-md-2{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .AcBlock {
+        margin-top: 20px;
+    }
+    .AcBlock .col-md-2:nth-child(2n) {
+        background-color: transparent;
+    }
+    .AcBlock .col-md-2.mobBg1{
+        background-color: #EAEAEA;
+    }
+    .ReviewWrp {
+        margin-top: 0;
+        padding-bottom: 65px;
+        margin: 0px -20px;
+        margin-top: 25px;
+    }
+    .StpTp2 .StpTp1Item {
+        padding: 0px 7px;
+    }
+    .mobSt2{
+        margin-bottom: 15px;
+    }
+    .WhyusBox {
+        padding: 30px 0px;
+    }
+    .WhyUsDesc {
+        font-size: 18px;
+    }
+    .WhyUsItemHR{
+        font-size: 23px;
+    }
+    .WhyUsWrp1 {
+        margin-top: 20px;
+    }
+    .WhyUsItemH {
+        margin-bottom: 15px;
+    }
+    .CstImag::after {
+        bottom: -10px;
+    }
+    .fixedReview .T15{
+        bottom: auto;
+    }
+    .fixedReview.ReviewWrp{
+        padding-top: 20px;
+    }
+    .ReviewMain{
+        font-size: 18px;
+    }
+    .RevIcn2{
+        margin-top: 35px;
+    }
+    .cstJuridictionBox {
+        padding: 30px 0px 50px 0px !important;
+    }
+    .T10 span{
+        padding: 0;
+    }
+    .T10 span br{
+        display: none;
+    }
+    .BenefitBox {
+        padding: 30px 0px;
+    }
+    .T111 {
+        margin-bottom: 15px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .BenefitWrp {
+        margin-top: 30px;
+    }
+    .mobSt3{
+        margin: 30px 0px 40px 0px;
+    }
+    .BenefitGridT2 {
+        font-size: 18px;
+    }
+    .FixedStep .T15{
+        bottom: auto;
+        color: #212529;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .T3{
+        font-size: 18px;
+    }
+    .blogPage .T3{
+        margin-bottom: 0;
+    }
+    .MainBlogThumb{
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .BlT1 {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .BlT2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .BlT3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .blogPage .Lnk1 {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .MainBlogList {
+        padding-bottom: 20px;
+    }
+    .blogPage .BlogItem {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .BlogThumbsWrp .BlogDesc {
+        font-size: 18px;
+    }
+    .BlogItem-1 {
+        height: 264px;
+    }
+    .blogContact .T2 {
+        margin-bottom: 25px;
+        text-align: left !important;
+    }
+    .blogContact .T2 br{
+        display: none;
+    }
+    .blogContact .CostContent {
+        padding-top: 30px;
+    }
+    .contPage .CostContent {
+        background-color: #fff;
+        padding-top: 30px;
+    }
+    .CT1 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=color], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=date], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=datetime-local], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=datetime], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=email], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=month], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=number], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=password], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=search], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=tel], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=text], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=time], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=url], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme input[type=week], 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme select, 
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme textarea{
+        background-color: #F8F8F8;
+        margin-bottom: 10px;
+    }
+    .contPage .ContactFrm1 .gform_wrapper.gravity-theme .gfield_label {
+        color: #8376B2;
+        font-weight: 600;
+        padding-left: 0;
+        font-size: 18px;
+    }
+    .contPage .ContactFrm1{
+        margin-top: 30px;
+    }
+    .iti--separate-dial-code .iti__selected-flag{
+        background-color: #F8F8F8 !important;
+    }
+    .OfficeTimeWrp {
+        padding: 20px 0px 5px 0px;
+    }
+    .OtT3 ,.OtHr1{
+        font-size: 18px;
+    }
+    .OtHourWrp .col-md-4{
+        margin-bottom: 15px;
+    }
+    .OtHr1{
+        height: 80px;
+    }
+    .Prt1 {
+        font-size: 37px;
+    }
+    .PromotionWrp {
+        padding: 30px 0px;
+    }
+    .Prt2 {
+        font-size: 22px;
+    }
+    .Prt4 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .mobSt4 {
+        margin: 20px 0px;
+    }
+    .PromotionSliderWrp {
+        margin-top: 15px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .PrImage1 {
+        height: 185px;
+    }
+    .PromotionLnk {
+        width: 100%;
+    }
+    .ccMobWrp{
+        background-color: #E0B78A;
+        padding: 100px 0px 30px 0px;
+        color: #fff;
+    }
+    .FullWidthImage{
+        position: relative;
+        overflow-x: hidden;
+    }
+    .FullWidthImage::after{
+        content: "";
+        background-image: url(../images/bannerimages/mobile/shadow1.png);
+        width: 100%;
+        height: 200px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+    }
+    .footerMain {
+        margin-top: -1px;
+    }
+    .faqWrap {
+        padding: 30px 0px;
+    }
+    .FaqitemL {
+        flex: 0 0 70%;
+        font-size: 18px;
+    }
+    .Faqitemr {
+        flex: 0 0 40px;
+        height: 40px;
+    }
+    .Arrow21 {
+        width: 16px;
+        height: 10px;
+        margin-top: 2px;
+    }
+    .FaqAnswer {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .Faq-items{
+        margin: 0;
+    }
+    .ReferWrp {
+        padding: 30px 0px 0px 0px;
+    }
+    .RfT1 {
+        font-size: 37px;
+        margin-bottom: 15px;
+    }
+    .StT1 {
+        font-size: 27px;
+        margin-bottom: 15px;
+    }
+    .ReferStepRow .ReferStepR{
+        font-size: 33px;
+    }
+    .StT2 {
+        font-size: 18px;
+    }
+    .FrmLft {
+        padding-left: 15px;
+    }
+    .TrmT1 {
+        font-size: 37px;
+        margin-bottom: 15px;
+    }
+    .TrmBoxWrp {
+        padding: 20px 0px;
+    }
+    .horMobile{
+        flex-wrap: nowrap;
+    overflow-x: scroll;
+    -ms-overflow-style: none; 
+        scrollbar-width: none;
+    }
+    .horMobile::-webkit-scrollbar {
+        display: none;
+    }
+    .horMobile .col-md-4{
+        flex: 0 0 85%;
+        max-width: 85%;
+    }
+    .TermBlock {
+        background-color: #8376B2;
+    }
+    .TermBlock .TermBlockT1{
+        color: #fff;
+    }
+    .TermBlock .TermBlockT2{
+        color: #fff;
+    }
+    .TermBlock .TermBlockT3{
+        background-color: #97C6CA;
+    }
+    .Trm1 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .Trm2 {
+        font-size: 37px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .spacer1 {
+        margin: 20px 0px;
+    }
+    .TermasContentArea{
+        font-size: 18px;
+    }
+    .FullWidthImage img{
+        min-height: 70vh;
+    }
+}

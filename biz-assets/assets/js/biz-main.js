@@ -31,7 +31,7 @@ jQuery(document).ready(function ($) {
     });
   }
 
-  jQuery(".CloseClick svg, .MenuClick").click(function () {
+  jQuery(".CloseClick svg, .MenuClick , .menudrop ,.MenuActive1").click(function () {
     jQuery("body").toggleClass("ActivePanel");
   });
 
@@ -45,6 +45,18 @@ jQuery(document).ready(function ($) {
     dots: true,
     swipeToSlide: true,
     infinite: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          centerMode: true,
+          variableWidth: false,
+          slidesToShow: 1,
+          infinite: true,
+          arrows: false,
+        }
+      }
+    ]
   });
   
   
@@ -98,8 +110,9 @@ jQuery(document).ready(function ($) {
   jQuery(".BackContent").click(function () {
     jQuery(".BackContent").removeClass("flip");
   });
-  jQuery(".OverLay , .openpopup").click(function () {
+  jQuery(".OverLay , .openpopup , .Contactusnow").click(function () {
     jQuery("body").toggleClass("activeform");
+    jQuery("body").removeClass("pop3active");
   });
   jQuery(".popup2-trigger").click(function () {
     jQuery("body").toggleClass("Popup2active");
@@ -122,6 +135,18 @@ jQuery(document).ready(function ($) {
     dots: true,
     swipeToSlide: true,
     infinite: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          centerMode: true,
+          variableWidth: false,
+          slidesToShow: 1,
+          infinite: true,
+          arrows: false,
+        }
+      }
+    ]
   });
   jQuery(".StpTp2").slick({
     draggable: true,
@@ -132,6 +157,18 @@ jQuery(document).ready(function ($) {
     dots: true,
     swipeToSlide: true,
     infinite: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          centerMode: true,
+          variableWidth: false,
+          slidesToShow: 1,
+          infinite: true,
+          arrows: false,
+        }
+      }
+    ]
   });
   jQuery(".BankSlider").slick({
     draggable: true,
@@ -142,27 +179,54 @@ jQuery(document).ready(function ($) {
     dots: true,
     swipeToSlide: true,
     infinite: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          centerMode: true,
+          variableWidth: false,
+          slidesToShow: 1,
+          infinite: true,
+          arrows: false,
+        }
+      }
+    ]
   });
 
-  jQuery(".ImageSwitcher").each(function() {
-    if (jQuery(window).width() < 600) {
-        mobileSrc = $(this).attr('data-mobile');
-        $(this)
+
+  
+    if (jQuery(window).width() < 1000) {
+        jQuery(".ImageSwitcher")
         .fadeOut(400, function() {
-            $(this).attr('src',mobileSrc);
+          jQuery(this).attr('src',jQuery(this).attr('data-mobile'));
         })
         .fadeIn(400);
     }
     else {
-      desktopSrc = jQuery(this).attr('data-desktop');
-      jQuery(this)
+      jQuery(".ImageSwitcher")
         .fadeOut(400, function() {
-          jQuery(this).attr('src',desktopSrc);
+          jQuery(this).attr('src',jQuery(this).attr('data-desktop'));
         })
         .fadeIn(400);
     }
-  });
- 
 
   jQuery('.select1').select2();
+
+  
+  jQuery(".FaqitemRow").click(function () {
+    jQuery(".FaqitemRow").removeClass("activefaq")
+    jQuery(this).addClass("activefaq");
+    jQuery(".FaqAnswer").hide();
+    jQuery(this).next(".FaqAnswer").slideToggle();
+    
+  });
+
+  if (jQuery(window).width() < 1000) {
+    jQuery(".Cst-select").click(
+      function(){
+        jQuery("body").toggleClass("pop3active");
+      }
+    );
+  }
+
 });
