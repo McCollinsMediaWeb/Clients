@@ -2607,9 +2607,7 @@ input:checked+.slider:before {
 .ActivePanel .menudrop{
     display: block;
 }
-.home .footer{
-display: none;
-}
+
 .mobile-only{
     display: none;
 }
