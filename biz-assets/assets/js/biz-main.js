@@ -13,27 +13,6 @@ jQuery(document).ready(function ($) {
       jQuery("body").removeClass("StickHeader");
     }
   });
-  jQuery(".Cst-select").addClass("activated");
-  jQuery(".T1").addClass("activated");
-
-  jQuery(window).scroll(function () {
-    inViewport();
-  });
-
-  jQuery(window).resize(function () {
-    inViewport();
-  });
-
-  function inViewport() {
-    jQuery(".rombus").each(function () {
-      var divPos = jQuery(this).offset().top,
-        topOfWindow = jQuery(window).scrollTop();
-
-      if (divPos < topOfWindow + 900) {
-        jQuery(this).addClass("activated");
-      }
-    });
-  }
 
   jQuery(".CloseClick, .MenuClick , .menudrop ,.MenuActive1").click(function () {
     jQuery("body").toggleClass("ActivePanel");
@@ -232,5 +211,7 @@ jQuery(document).ready(function ($) {
       }
     );
   }
+
+ 
 
 });

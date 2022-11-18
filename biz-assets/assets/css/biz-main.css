@@ -52,7 +52,7 @@ a {
     content: "";
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     left: 0;
     top: 0;
@@ -445,15 +445,7 @@ a {
     overflow: hidden;
 }
 
-/* .rombus{
-    transform: translateY(100%);
-    opacity: 0;
-}
-.rombus.activated{
-    transition: transform 1250ms ease 0ms;
-    transform: translate(0px, 0px);
-    opacity: 1;
-} */
+
 .T7 {
     font-size: 60px;
     color: #8376B2;
@@ -2294,7 +2286,7 @@ input:checked+.slider:before {
     box-shadow: none !important;
 }
 .main{
-    overflow-x: hidden !important;
+    overflow: hidden !important;
 }
 .PDT2 .iti {
     position: relative;
