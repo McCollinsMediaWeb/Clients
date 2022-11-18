@@ -2627,3 +2627,15 @@ display: block !important;
 .Bt1 {
     font-size: 37px;
 }
+.blog-details-page{
+    padding-top: 60px;
+}
+.blog-details-page .BlogItem{
+    margin-bottom: 20px;
+}
+.blog-details-page .BlT1{
+margin-top: 20px;
+}
+.text-left.mobile-only{
+    text-align: center !important;
+}
