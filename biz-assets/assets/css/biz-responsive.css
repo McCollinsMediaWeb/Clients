@@ -851,4 +851,97 @@ margin-bottom: 15px;
     .blog-details-page {
         padding-top: 20px;
     }
+    .ContactForm12Row .input1 {
+        padding: 11px 20px;
+    }
+    .ContactForm12Row input.wpcf7-submit {
+        min-width: 100%;
+        margin-top: 15px;
+    }
+    .ContactForm12Row p{
+        margin-bottom: 12px;
+    }
+    .CareerPage .Prt5 {
+        font-size: 19px;
+        margin: 0px 0px 15px 0px;
+    }
+    .CareersWrp {
+        margin-top: 15px;
+    }
+    .CarItem {
+        padding: 20px;
+        min-height: 100px;
+        margin-bottom: 15px;
+    }
+    .CarItem1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .CarItem3 {
+        margin-top: 10px;
+    }
+    .prt6 {
+        font-size: 16px;
+        margin: 15px 0px;
+    }
+    .OurTeamBoxCar .container {
+        padding: 20px 15px;
+    }
+    .ContactForm12Row .input1 {
+        font-size: 12px;
+    }
+    .MobSliderItemimg{
+        height: 75vh;
+        object-fit: cover;
+    }
+    .Framer1 {
+        max-width: 100%;
+    }
+    .CCblockWrp {
+        padding: 20px 0px;
+        position: relative;
+    }
+    .CCBlockContent {
+        padding: 0;
+    }
+    .CCt1{
+        font-size: 19px !important;
+    }
+    .CCt3 {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .FormLabel {
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    .column-1 {
+        margin-bottom: 15px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 15px;
+    }
+    .SldWrp {
+        margin-top: 10px;
+    }
+    .SldT21 {
+        font-size: 15px;
+    }
+    .NextBtn12 {
+        font-size: 17px;
+        display: block;
+    }
+    .CCBlockFooter {
+        padding: 15px 0px;
+        background-color: #C4D99F;
+        text-align: center;
+    }
+    #div-cal-output{
+        padding: 0;
+    }
+    .CCStep3  .accordion{
+        height: auto;
+        color: #212121 !important;
+    }
 }

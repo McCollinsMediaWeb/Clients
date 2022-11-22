@@ -248,7 +248,7 @@ a {
 
 .SideNav {
     position: fixed;
-    right: -500px;
+    right: -200%;
     top: 0;
     width: 500px;
     padding: 60px 70px;
@@ -2005,7 +2005,409 @@ body::-webkit-scrollbar-thumb:hover {
 .PromotionLnk:hover .PrLnkT4 {
     display: block;
 }
+.main{
+    overflow: hidden;
+}
+.faqWrap{
+    padding: 60px 0px;
+}
+.FaqHeader .Prt4{
+    margin-top: 5px;
+}
+.FaqHeader .row{
+    align-items: center;
+}
+.FaqitemRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.FaqitemL{
+    flex: 0 0 500px;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 19px;
+    transition: 0.3s;
+}
+.Faqitemr{
+    flex: 0 0 50px;
+    background-color: #212121;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.FaqitemRow:hover{
+    color: #8376B2;
+}
+.FaqitemRow:hover .Faqitemr{
+    background-color: #8376B2;
+}
+.Faqitem{
+    padding: 20px 0px;
+    border-bottom: 1px solid #212121;
+}
+.Faq-items{
+    margin-top: 20px;
+}
+.FaqAnswer{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #8376b2;
+    display: none;
+}
+.Arrow21{
+    display: block;
+    background-image: url(../images/faq/arrowdown.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 14px;
+    margin-top: 5px;
+}
+.FaqitemRow.activefaq .Arrow21{
+    background-image: url(../images/faq/arrowup.png);
+    margin-top: 0;
+}
+.ReferWrp{
+    padding: 60px 0px;
+}
+.RfT1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #8376B2;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+.RfT2{
+    font-weight: 900;
+    font-size: 24px;
+}
+.RfT3{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.ReferStepRow{
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #F8F8F8;
+    margin-top: 20px;
+    display: flex;
+}
+.ReferStepRow .ReferStepL{
+    flex: auto;
+}
+.ReferStepRow .ReferStepR{
+    flex: 0 0 60px;
+    max-width: 60px;
+    color: #8376B2;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: right;
+}
+.StT1{
+    color: #8376B2;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+.StT2 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.StT2::before {
+    content: "";
+    background-image: url(../images/arrow2.png);
+    width: 45px;
+    height: 11px;
+    display: inline-block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+}
+.ContactFrm1.ReferForm{
+    padding-left: 0px;
+}
+.ContactFrm1.ReferForm input , .ContactFrm1.ReferForm select{
+    background-color: #F8F8F8;
+    border: 0px solid #e4e4e4;
+    margin-bottom: 10px;
+}
+.ContactFrm1.ReferForm .gform_wrapper.gravity-theme .gfield_label{
+    color: #8376B2;
+    margin-bottom: 10px;
+}
+.FrmLft{
+    padding-left: 50px;
+}
+.ContactFrm1.ReferForm .gform_wrapper.gravity-theme .gform_footer input {
+    min-width: 300px;
+}
+.TrmBoxWrp{
+    padding: 60px 0px;
+}
+.TrmT1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #8376B2;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+.TermBlock{
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #F8F8F8;
+    transform: 0.4s;
+}
+.TermBlockT1{
+    font-weight: 900;
+    line-height: 1.3;
+    font-size: 24px;
+    color: #8376B2;
+    margin-bottom: 20px;
+}
+.TermBlockT2{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.TermBlockT3{
+    background-color: #8376B2;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 30px;
+}
+.TermBlock:hover{
+    background-color: #8376B2;
+}
+.TermBlock:hover .TermBlockT1{
+    color: #fff;
+}
+.TermBlock:hover .TermBlockT2{
+    color: #fff;
+}
+.TermBlock:hover .TermBlockT3{
+    background-color: #97C6CA;
+}
+.TermasContentArea{
+    font-style: italic;
+    line-height: 1.3;
+    margin-top: 30px;
+}
+.Trm1{
+    margin-bottom: 20px;
+}
 
+.spacer1 {
+    background-image: url(../images/border1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 3px;
+    display: block;
+    margin: 30px 0px;
+}
+.Trm2{
+    font-size: 45px;
+    font-weight: 900;
+    color: #8376B2;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+.Trm3{
+    font-weight: 900;
+    color: #8376B2;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.menudrop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 22;
+    display: none;
+    cursor: pointer;
+}
+.ActivePanel .menudrop{
+    display: block;
+}
+
+.mobile-only{
+    display: none;
+}
+.desktop-only{
+display: block !important;
+}
+.Bt1 {
+    font-size: 37px;
+}
+.blog-details-page{
+    padding-top: 60px;
+}
+.blog-details-page .BlogItem{
+    margin-bottom: 20px;
+}
+.blog-details-page .BlT1{
+margin-top: 20px;
+}
+.text-left.mobile-only{
+    text-align: center !important;
+}
+.ContactForm12RowLbl{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.ContactForm12Row .input1{
+    padding: 15px 20px;
+    border-radius: 30px;
+    width: 100%;
+}
+.ContactForm12Row .intl-tel-input {
+    position: relative;
+    display: block;
+}
+.ContactForm12Row input.wpcf7-submit {
+    background-color: #8376B2 !important;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.4s;
+    padding: 15px 45px;
+    border-radius: 30px;
+    min-width: 320px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.ContactForm12Row .intl-tel-input .selected-flag{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 50px;
+}
+.ContactForm12Row .intl-tel-input.allow-dropdown input, 
+.ContactForm12Row .intl-tel-input.allow-dropdown input[type=tel]{
+    padding-left: 70px;
+}
+.ContactForm12Row .intl-tel-input.allow-dropdown .flag-container{
+left: 10px;
+}
+.Prt5{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 15px 0px;
+}
+.CareersWrp{
+    margin-top: 40px;
+}
+.CarItem{
+    padding: 30px;
+    border-radius: 30px;
+    min-height: 190px;
+}
+.CarItem1{
+    font-weight: 900;
+    font-size: 23px;
+    color: #8376B2;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.CarItem2 {
+    background-image: url(../images/border1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 3px;
+    display: block;
+}
+.CarItem3{
+    font-style: italic;
+    margin-top: 20px;
+}
+.prt6{
+    font-weight: 700;
+    font-size: 22px;
+    margin: 25px 0px;
+}
+.OurTeamBoxCar .container{
+    padding: 40px 15px;
+}
+.CareerPage  .Prt3{
+    margin: 20px 0px;
+}
+.MobItem1{
+    position: relative;
+}
+.MobItem1Cnt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    align-items: end;
+    font-style: italic;
+    line-height: 1.3;
+}
+.MobSliderItemimg{
+    border-radius: 40px;
+}
+.Framer1{
+    max-width: 320px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+.MobItem1Cnt1{
+    font-size: 50px;
+    line-height: 1;
+}
+.Framer1 .slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+.Framer1 .slick-dots {
+    bottom: auto;
+    top: 0;
+}
+.Framer1 .slick-dots li button{
+    width: 100%;
+    padding: 0px;
+    background: #fff;
+    height: 0px;
+}
+.Framer1 .slick-dots li{
+    width: 19%;
+    height: 4px;
+    background: #fff;
+    border-radius: 4px;
+}
+.Framer1 .slick-dots li button:before{
+    content: none;
+}
+.Framer1 .slick-dots li.slick-active{
+    background-color: #8376B2;
+}
 .CCblockWrp {
     padding: 40px 0px;
     position: relative;
@@ -2285,9 +2687,7 @@ input:checked+.slider:before {
     outline: none !important;
     box-shadow: none !important;
 }
-.main{
-    overflow: hidden !important;
-}
+
 .PDT2 .iti {
     position: relative;
     display: block;
@@ -2367,265 +2767,15 @@ input:checked+.slider:before {
     margin: 5px 0px 20px 0px;
     border: 0px solid #fff !important;
 }
-.faqWrap{
-    padding: 60px 0px;
-}
-.FaqHeader .Prt4{
-    margin-top: 5px;
-}
-.FaqHeader .row{
-    align-items: center;
-}
-.FaqitemRow{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.FaqitemL{
-    flex: 0 0 500px;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 19px;
-    transition: 0.3s;
-}
-.Faqitemr{
-    flex: 0 0 50px;
-    background-color: #212121;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
-}
-.FaqitemRow:hover{
-    color: #8376B2;
-}
-.FaqitemRow:hover .Faqitemr{
-    background-color: #8376B2;
-}
-.Faqitem{
-    padding: 20px 0px;
-    border-bottom: 1px solid #212121;
-}
-.Faq-items{
-    margin-top: 20px;
-}
-.FaqAnswer{
-    font-weight: 600;
-    font-size: 20px;
-    margin-top: 30px;
-    color: #8376b2;
-    display: none;
-}
-.Arrow21{
-    display: block;
-    background-image: url(../images/faq/arrowdown.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 22px;
-    height: 14px;
-    margin-top: 5px;
-}
-.FaqitemRow.activefaq .Arrow21{
-    background-image: url(../images/faq/arrowup.png);
-    margin-top: 0;
-}
-.ReferWrp{
-    padding: 60px 0px;
-}
-.RfT1{
-    font-size: 50px;
-    font-weight: 900;
-    color: #8376B2;
-    line-height: 1.1;
-    margin-bottom: 25px;
-}
-.RfT2{
-    font-weight: 900;
-    font-size: 24px;
-}
-.RfT3{
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-.ReferStepRow{
-    padding: 30px;
-    border-radius: 30px;
-    background-color: #F8F8F8;
-    margin-top: 20px;
-    display: flex;
-}
-.ReferStepRow .ReferStepL{
-    flex: auto;
-}
-.ReferStepRow .ReferStepR{
-    flex: 0 0 60px;
-    max-width: 60px;
-    color: #8376B2;
-    font-weight: 900;
-    font-size: 40px;
-    text-align: right;
-}
-.StT1{
-    color: #8376B2;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 1.1;
-    margin-bottom: 15px;
-}
-.StT2 {
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: capitalize;
-    cursor: pointer;
-}
-.StT2::before {
-    content: "";
-    background-image: url(../images/arrow2.png);
-    width: 45px;
-    height: 11px;
-    display: inline-block;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-    position: relative;
-    top: 10px;
-    margin-bottom: 10px;
-}
-.ContactFrm1.ReferForm{
-    padding-left: 0px;
-}
-.ContactFrm1.ReferForm input , .ContactFrm1.ReferForm select{
-    background-color: #F8F8F8;
-    border: 0px solid #e4e4e4;
-    margin-bottom: 10px;
-}
-.ContactFrm1.ReferForm .gform_wrapper.gravity-theme .gfield_label{
-    color: #8376B2;
-    margin-bottom: 10px;
-}
-.FrmLft{
-    padding-left: 50px;
-}
-.ContactFrm1.ReferForm .gform_wrapper.gravity-theme .gform_footer input {
-    min-width: 300px;
-}
-.TrmBoxWrp{
-    padding: 60px 0px;
-}
-.TrmT1{
-    font-size: 50px;
-    font-weight: 900;
-    color: #8376B2;
-    line-height: 1.1;
-    margin-bottom: 30px;
-}
-.TermBlock{
-    padding: 30px;
-    border-radius: 30px;
-    background-color: #F8F8F8;
-    transform: 0.4s;
-}
-.TermBlockT1{
-    font-weight: 900;
-    line-height: 1.3;
-    font-size: 24px;
-    color: #8376B2;
-    margin-bottom: 20px;
-}
-.TermBlockT2{
-    font-style: italic;
-    margin-bottom: 20px;
-}
-.TermBlockT3{
-    background-color: #8376B2;
-    color: #fff !important;
-    font-weight: 700;
-    font-size: 18px;
-    text-align: center;
-    width: 100%;
-    display: block;
-    padding: 10px;
-    border-radius: 30px;
-}
-.TermBlock:hover{
-    background-color: #8376B2;
-}
-.TermBlock:hover .TermBlockT1{
-    color: #fff;
-}
-.TermBlock:hover .TermBlockT2{
-    color: #fff;
-}
-.TermBlock:hover .TermBlockT3{
-    background-color: #97C6CA;
-}
-.TermasContentArea{
-    font-style: italic;
-    line-height: 1.3;
-    margin-top: 30px;
-}
-.Trm1{
-    margin-bottom: 20px;
-}
-
-.spacer1 {
-    background-image: url(../images/border1.jpg);
-    background-size: 100% 100%;
-    width: 100%;
-    height: 3px;
-    display: block;
-    margin: 30px 0px;
-}
-.Trm2{
-    font-size: 45px;
-    font-weight: 900;
-    color: #8376B2;
-    line-height: 1.1;
-    margin-bottom: 30px;
-}
-.Trm3{
-    font-weight: 900;
-    color: #8376B2;
-    line-height: 1.1;
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-.menudrop{
-    position: fixed;
-    left: 0;
-    top: 0;
+.CostPopUp{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: 22;
-    display: none;
-    cursor: pointer;
-}
-.ActivePanel .menudrop{
-    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #E0B78A;
+    padding: 20px 40px;
 }
 
-.mobile-only{
-    display: none;
-}
-.desktop-only{
-display: block !important;
-}
-.Bt1 {
-    font-size: 37px;
-}
-.blog-details-page{
-    padding-top: 60px;
-}
-.blog-details-page .BlogItem{
-    margin-bottom: 20px;
-}
-.blog-details-page .BlT1{
-margin-top: 20px;
-}
-.text-left.mobile-only{
-    text-align: center !important;
-}
+
