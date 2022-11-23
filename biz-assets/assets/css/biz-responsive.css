@@ -961,8 +961,8 @@ margin-bottom: 15px;
 		margin-bottom:10px;
 	}
 	.CCt3 {
-		font-size: 28px;
-	}
+        font-size: 19px;
+    }
 	.CCt3 span {
 		position:relative;
 		padding-left:0;
@@ -979,6 +979,25 @@ margin-bottom: 15px;
 	.Step3Btn {
 		margin-top:10px;
 	}
+    .St2T1 br{
+        display: none;
+    }
+    .St2T1 {
+        margin-bottom: 15px;
+    }
+    .CCStep3  .container .row{
+        margin: 0;
+    }
+    .CCStep3  .container .CCBlockFooterT1 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .CCStep3  .column-1 .row{
+        margin: 0;
+    }
+    .CCStep3  .column-1 .row .col-md-6{
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 550px) {
