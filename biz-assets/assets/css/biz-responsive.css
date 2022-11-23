@@ -945,3 +945,48 @@ margin-bottom: 15px;
         color: #212121 !important;
     }
 }
+
+.StepLastT1 {
+	color:#000;
+	    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 762px) {
+	.CCt1 {
+		text-align: left;
+		font-weight: 900;
+		color: #97C6CA;
+		font-size: 28px;
+		margin-bottom:10px;
+	}
+	.CCt3 {
+		font-size: 28px;
+	}
+	.CCt3 span {
+		position:relative;
+		padding-left:0;
+	}
+	.CCBlockFooterT1 span {
+		padding-left:0;
+	}
+	.StepLastT1 {
+		font-size:14px;
+	}
+	.ChangeCrrcy {
+		margin-top:20px;
+	}
+	.Step3Btn {
+		margin-top:10px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.StepLastT1 {
+		display:flex;
+		justify-content: space-between;
+	}
+	.accordion {
+		height:unset !important;
+	}
+}
