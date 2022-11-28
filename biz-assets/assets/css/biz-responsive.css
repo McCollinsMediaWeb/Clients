@@ -76,14 +76,14 @@
         display: none;
     }
     .T2 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .T4 {
         font-size: 16px;
         margin-bottom: 15px;
     }
     .T7 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .T8{
         font-size: 16px;
@@ -129,7 +129,7 @@
         margin: 0px -20px;
     }
     .JuridictionBox {
-        padding-bottom: 35px;
+        padding-bottom: 25px;
     }
     .cst1 .slick-dots li {
         width: 13px;
@@ -137,7 +137,7 @@
         margin: 0px 3px;
     }
     .T10 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .T11 {
         font-size: 16px;
@@ -206,10 +206,10 @@ margin-bottom: 15px;
     .StpTp1Wrp {
         margin-top: 0;
         padding-bottom: 20px;
-        padding-top: 35px;
+        padding-top: 25px;
     }
     .T15 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .StpTp1Wrp .slick-dotted.slick-slider {
         margin-bottom: 0;
@@ -258,7 +258,7 @@ margin-bottom: 15px;
         padding-bottom: 20px;
     }
     .T25 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .BankingPartners {
         padding: 20px 0px 40px 0px;
@@ -323,7 +323,7 @@ margin-bottom: 15px;
         padding: 0 5px;
     }
     .Bt1 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .BlgHeader {
         margin-bottom: 15px;
@@ -336,7 +336,7 @@ margin-bottom: 15px;
         margin: 15px 0px 5px 0px;
     }
     .Bt2 {
-        font-size: 35px;
+        font-size: 25px;
         margin: 20px 0px;
     }
     .mobile-content .BlogItem {
@@ -363,7 +363,7 @@ margin-bottom: 15px;
         margin-bottom: 12px;
     }
     .footerLogo img {
-        max-width: 235px;
+        max-width: 225px;
     }
     .footerBottom {
         font-size: 12px;
@@ -441,7 +441,7 @@ margin-bottom: 15px;
         margin: 20px 0px;
     }
     .Vt1{
-        font-size: 35px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
     .Vt2{
@@ -472,7 +472,7 @@ margin-bottom: 15px;
         font-size: 16px;
     }
     .T35 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .AcBlockItem {
         min-height: 170px;
@@ -541,7 +541,7 @@ margin-bottom: 15px;
         line-height: 1.3;
     }
     .RevIcn2{
-        margin-top: 35px;
+        margin-top: 25px;
     }
     .cstJuridictionBox {
         padding: 30px 0px 50px 0px !important;
@@ -686,7 +686,7 @@ margin-bottom: 15px;
         height: 80px;
     }
     .Prt1 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .PromotionWrp {
         padding: 30px 0px;
@@ -743,8 +743,8 @@ margin-bottom: 15px;
         font-size: 16px;
     }
     .Faqitemr {
-        flex: 0 0 35px;
-        height: 35px;
+        flex: 0 0 25px;
+        height: 25px;
     }
     .Faqitem {
         padding: 15px 0px;
@@ -766,7 +766,7 @@ margin-bottom: 15px;
         padding: 30px 0px 0px 0px;
     }
     .RfT1 {
-        font-size: 35px;
+        font-size: 25px;
         margin-bottom: 15px;
     }
     .StT1 {
@@ -783,7 +783,7 @@ margin-bottom: 15px;
         padding-left: 15px;
     }
     .TrmT1 {
-        font-size: 35px;
+        font-size: 25px;
         margin-bottom: 15px;
     }
     .TrmBoxWrp {
@@ -998,6 +998,59 @@ margin-bottom: 15px;
     .CCStep3  .column-1 .row .col-md-6{
         padding: 0;
     }
+    .St2T1 {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+        .CCStep3 .CCBlock .row{
+            margin:0px;
+        }
+        .CCStep3 .CCBlock .row [class*="col-"]{
+            padding:0px;
+        }
+        .CCStep3 .accordion {
+        height: auto;
+        color: #212121 !important;
+        border-bottom: 1px solid #212121 !important;
+        padding: 20px 0px;
+    }
+        .CCStep3 .accordion.active{
+            border-bottom:0px solid #e4e4e4 !important;
+                padding-bottom: 0px;
+        }
+        .panel{
+                border-bottom: 1px solid #212121;
+                padding: 0 !important;
+        padding-bottom: 15px;
+        }
+        .PaginationWrp .page-numbers {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background: #8376B2;
+                display: inline-block;
+                color: #fff;
+                line-height: 30px;
+                font-weight: 600;
+                font-size: 14px;
+                margin-right: 0;
+        }
+        .PaginationWrp .page-numbers.next, .PaginationWrp .page-numbers.prev{
+            min-width:90px;
+        }
+        .PaginationWrp .page-numbers.prev{
+                margin-right: 0px;
+        }
+        .PaginationWrp .page-numbers.next {
+                margin-left: 0;
+                margin-right: 0px;
+        }
+        .PaginationWrp{
+            margin-top:20px;
+        }
+        .PaginationWrp .container{
+            padding:0px 2px;
+        }
 }
 
 @media only screen and (max-width: 550px) {

@@ -2778,4 +2778,50 @@ input:checked+.slider:before {
     padding: 20px 40px;
 }
 
-
+.ContactForm12Row input.wpcf7-submit {
+	min-width: 100%;align-content
+}
+.PaginationWrp{
+	text-align:center;
+	margin-top:40px;
+}
+.PaginationWrp .page-numbers{
+		width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #8376B2;
+    display: inline-block;
+    color: #fff;
+    line-height: 37px;
+	    font-weight: 600;
+    font-size: 16px;
+	margin-right:5px;
+}
+.PaginationWrp .page-numbers.next,
+.PaginationWrp .page-numbers.prev{
+width: auto;
+    height: auto;
+    border-radius: 0%;
+    background: #97C6CA;
+    color: #fff;
+    min-width: 120px;
+    padding: 3px;
+    border-radius: 15px;
+}
+.PaginationWrp .page-numbers.current{
+	background: #97C6CA;
+}
+.PaginationWrp .page-numbers.dots{
+	width:auto;
+	height:auto;
+	border-radius: 0%;
+	background:none;
+	color:#212529;
+}
+.PaginationWrp .page-numbers.prev{
+	margin-right:15px;
+}
+.PaginationWrp .page-numbers.next{
+	margin-left:15px;
+	margin-right:0px;
+}
