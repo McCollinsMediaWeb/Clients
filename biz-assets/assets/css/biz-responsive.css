@@ -1076,6 +1076,18 @@ margin-bottom: 15px;
         .PromotionLnk .PrLnkT4{
             margin-top: 15px;
         }
+        .slick-active .PromotionLnk{
+            width: auto !important;
+        }
+        .slick-active .PrLnkT1 {
+            color: #fff;
+        }
+        .slick-active .PrLnkT2{
+            color: #fff;
+        }
+        .slick-active .PrLnkT3{
+            color: #fff;
+        }
 }
 
 @media only screen and (max-width: 550px) {
