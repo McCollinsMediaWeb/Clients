@@ -380,7 +380,7 @@ margin-bottom: 15px;
         margin-bottom: 15px;
     }
     .footer .Styled-Border {
-        margin: 25px 0px;
+        margin: 20px 0px;
     }
     .halo-sticky-toolbar-mobile {
         position: fixed;
@@ -455,7 +455,7 @@ margin-bottom: 15px;
         padding: 40px 40px;
     }
     .GsiT1 {
-        font-size: 21px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
     .GsiT2 , .T36{
@@ -1050,6 +1050,22 @@ margin-bottom: 15px;
         }
         .PaginationWrp .container{
             padding:0px 2px;
+        }
+        .Ct1 {
+            font-size: 29px;
+            margin-bottom: 10px;
+        }
+        .BoxSt1{
+            font-size: 17px;
+        }
+        .T5 {
+            font-size: 23px;
+            text-align: left !IMPORTANT;
+            margin-top: 15px;
+        }
+        .T6 {
+            font-size: 20px;
+            margin-bottom: 15px;
         }
 }
 
