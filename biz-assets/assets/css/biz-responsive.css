@@ -519,7 +519,7 @@ margin-bottom: 15px;
         font-size: 16px;
     }
     .WhyUsItemHR{
-        font-size: 23px;
+        font-size: 20px;
     }
     .WhyUsWrp1 {
         margin-top: 20px;
@@ -1066,6 +1066,15 @@ margin-bottom: 15px;
         .T6 {
             font-size: 20px;
             margin-bottom: 15px;
+        }
+        .active .PromotionLnk {
+            width: auto;
+        }
+        .PromotionLnk .PrActions {
+            display: block;
+        }
+        .PromotionLnk .PrLnkT4{
+            margin-top: 15px;
         }
 }
 
