@@ -1075,6 +1075,7 @@ margin-bottom: 15px;
         }
         .PromotionLnk .PrLnkT4{
             margin-top: 15px;
+            display: block;
         }
         .slick-active .PromotionLnk{
             width: auto !important;
