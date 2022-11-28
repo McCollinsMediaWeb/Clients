@@ -1078,6 +1078,7 @@ margin-bottom: 15px;
         }
         .slick-active .PromotionLnk{
             width: auto !important;
+            background-color: #8376B2;
         }
         .slick-active .PrLnkT1 {
             color: #fff;
