@@ -1914,6 +1914,7 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 20px;
     background-color: #F8F8F8;
     border-radius: 30px;
+    height: 490px;
 }
 
 .active .PromotionLnk {

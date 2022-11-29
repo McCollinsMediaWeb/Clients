@@ -1090,6 +1090,9 @@ margin-bottom: 15px;
         .slick-active .PrLnkT3{
             color: #fff;
         }
+        .PromotionLnk {
+            height: 490px;
+        }
 }
 
 @media only screen and (max-width: 550px) {
