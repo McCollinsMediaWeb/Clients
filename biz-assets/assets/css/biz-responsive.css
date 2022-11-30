@@ -1110,6 +1110,9 @@ margin-bottom: 15px;
         .Popup1 .ContactForm12RowLbl {
             color: #fff;
         }
+        .ContactForm12RowLbl {
+            font-size: 14px;
+        }
 }
 
 @media only screen and (max-width: 550px) {
