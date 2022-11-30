@@ -221,7 +221,8 @@ margin-bottom: 15px;
     .StpTp1Wrp .Lnk1 {
         margin-top: 70px;
     }
-    .StpTp1Box:hover{
+    .StpTp1Box:hover,
+    .PromotionLnk:hover{
         background-color: transparent;
     }
     .slick-active .StpTp1Box {
