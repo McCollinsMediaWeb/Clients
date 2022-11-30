@@ -16,6 +16,7 @@ input , select{
 a {
     text-decoration: none !important;
     transition: 0.4s;
+    outline: none;
 }
 
 .container {
