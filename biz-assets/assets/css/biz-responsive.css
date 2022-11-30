@@ -64,7 +64,7 @@
 
     }
     .NavBox a{
-        font-size: 24px;
+        font-size: 22px;
     }
     .ContactFrm1 .gform_wrapper.gravity-theme input[type=color], .ContactFrm1 .gform_wrapper.gravity-theme input[type=date], .ContactFrm1 .gform_wrapper.gravity-theme input[type=datetime-local], .ContactFrm1 .gform_wrapper.gravity-theme input[type=datetime], .ContactFrm1 .gform_wrapper.gravity-theme input[type=email], .ContactFrm1 .gform_wrapper.gravity-theme input[type=month], .ContactFrm1 .gform_wrapper.gravity-theme input[type=number], .ContactFrm1 .gform_wrapper.gravity-theme input[type=password], .ContactFrm1 .gform_wrapper.gravity-theme input[type=search], .ContactFrm1 .gform_wrapper.gravity-theme input[type=tel], .ContactFrm1 .gform_wrapper.gravity-theme input[type=text], .ContactFrm1 .gform_wrapper.gravity-theme input[type=time], .ContactFrm1 .gform_wrapper.gravity-theme input[type=url], .ContactFrm1 .gform_wrapper.gravity-theme input[type=week], .ContactFrm1 .gform_wrapper.gravity-theme select, .ContactFrm1 .gform_wrapper.gravity-theme textarea{
         padding: 8px 20px;
@@ -220,6 +220,9 @@ margin-bottom: 15px;
     }
     .StpTp1Wrp .Lnk1 {
         margin-top: 70px;
+    }
+    .StpTp1Box:hover{
+        background-color: transparent;
     }
     .slick-active .StpTp1Box {
         margin-top: 0px;
@@ -453,13 +456,14 @@ margin-bottom: 15px;
     }
     .GridStyle1Item {
         padding: 40px 40px;
+        margin-bottom: 20px;
     }
     .GsiT1 {
         font-size: 20px;
         margin-bottom: 10px;
     }
     .GsiT2 , .T36{
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
     .empImage {
@@ -1092,6 +1096,9 @@ margin-bottom: 15px;
         }
         .PromotionLnk {
             height: 490px;
+        }
+        .MrAdj1 {
+            margin-top: 40px !important;
         }
 }
 
