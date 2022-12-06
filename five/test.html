@@ -1,0 +1,448 @@
+<?php
+    /*
+    Template Name: Home Page
+    */
+     get_header(); 
+
+     $home_main_image  = get_field('home_main_image', '7');
+     $home_main_image_mobile  = get_field('home_main_image_mobile', '7');
+     $banner_title  = get_field('banner_title', '7');
+     $banner_content  = get_field('banner_content', '7');
+     $text_3  = get_field('text_3', '7');
+     $second_title  = get_field('second_title', '7');
+     $ficture_image  = get_field('ficture_image', '7');
+     $third_title  = get_field('third_title', '7');
+     $third_first_content  = get_field('third_first_content', '7');
+     $third_second_content  = get_field('third_second_content', '7');
+     $third_fourth_content  = get_field('third_fourth_content', '7');
+     $seat_image  = get_field('seat_image', '7');
+     $fourth_title  = get_field('fourth_title', '7');
+     $fourth_first_content  = get_field('fourth_first_content', '7');
+     $fourth_second_content  = get_field('fourth_second_content', '7');
+     $fifth_title  = get_field('fifth_title', '7');
+     $fifth_first_content  = get_field('fifth_first_content', '7');
+     $fifth_second_content  = get_field('fifth_second_content', '7');
+     $fifth_third_content  = get_field('fifth_third_content', '7');
+     $fifth_image  = get_field('fifth_image', '7');
+     $contact_email  = get_field('contact_email', '7');
+     $contact_phone_number  = get_field('contact_phone_number', '7');
+     $address  = get_field('address', '7');
+     $instagram_link  = get_field('instagram_link', '7');
+     $facebook_link  = get_field('facebook_link', '7');
+     $whatsapp_number  = get_field('whatsapp_number', '7');
+     $youtube_video_link  = get_field('youtube_video_link', '7');
+     $book_now_link  = get_field('book_now_link', '7');
+     $view_menu  = get_field('view_menu', '7');
+ ?>
+
+
+<div class="HeroBanner" id="section1">
+    <img id="bannerT2" class="img-full" src="" />
+    <div class="Layer2">
+        <div>
+            <div class="container">
+                <div class="T1 text-uppercase" data-aos="fade-up">
+                    <?php echo $banner_title;?>
+                </div>
+                <div>
+                    <div class="T2Section">
+                        <div class="T2SectionL">
+                            <div class="T2 text-uppercase" data-aos="fade-up">
+                                <?php echo $banner_content;?>
+
+                            </div>
+                            <a href="<?php echo $book_now_link;?>" class="T2Link" target="_blank">Come Play<svg
+                                    width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M35 17.5027L0.0273438 0.942413V34.0576L35 17.5027Z" fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="T2SectionR">
+                            <?php if($youtube_video_link) { ?>
+                            <a class="Img-player" data-fancybox href="<?php echo $youtube_video_link;?>">
+                                <?php } else { ?>
+                                <a class="Img-player" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                                    <?php } ?>
+                                    <img src="https://footballatfive.com/wp-content/uploads/2022/11/player.jpg" />
+                                    <svg width="58" height="58" viewBox="0 0 58 58" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="28.8826" cy="28.8826" r="28.8826" fill="white" />
+                                        <path d="M38.8257 28.8826L24.6212 39.1338V18.6313L38.8257 28.8826Z"
+                                            fill="#8747D1" />
+                                    </svg>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="T3 text-uppercase">
+                    <?php echo $text_3;?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section2" id="section2">
+    <div class="container">
+        <div class="S2T1 text-center" data-aos="fade-up">
+            <?php echo $second_title;?>
+            <div class="text-center">
+                <div class="Round16Txt">Round Of 16</div>
+            </div>
+        </div>
+        <div class="Dynamic-Matches">
+            
+
+        <?php 
+        //$args = array('post_type'=>'post','cat'=>[11],'posts_per_page'=>'16','order'=>'ASC');
+        //$the_query = new WP_Query($args);
+              
+        ?>
+
+<?php
+                $args = array('post_type'=>'post','cat'=>[11],'posts_per_page'=>'16','order'=>'ASC');
+                $the_query = new WP_Query($args);
+                $k=0;
+                if($the_query->have_posts()):
+                while($the_query->have_posts()):$the_query->the_post();
+                $attachment = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID),'testimonial_size');
+                $src = $attachment[0];
+
+                $date = get_the_date();
+            $day_ = '';
+            $month_ = '';
+            $year_ = '';
+            $week_ = '';
+            if ($date) {
+            $time = strtotime($date);
+            $day_ = date('d', $time);
+            $month_ = date('M', $time);
+            $year_ = date('Y', $time);
+            $week_ = date('l', $time);
+            }   
+
+
+                $match_time  = get_field('match_time', $post->ID);
+                $booking_link  = get_field('booking_link', $post->ID);
+                $first_team_name  = get_field('first_team_name', $post->ID);
+                $first_team_logo  = get_field('first_team_logo', $post->ID);
+                $second_team_name  = get_field('second_team_name', $post->ID);              
+                $second_team_logo  = get_field('second_team_logo', $post->ID);
+
+
+                $second_match_time  = get_field('second_match_time', $post->ID);
+                $second_booking_link  = get_field('second_booking_link', $post->ID);
+                $third_team_name  = get_field('third_team_name', $post->ID);
+                $third_team_logo  = get_field('third_team_logo', $post->ID);
+                $fourth_team_name  = get_field('fourth_team_name', $post->ID);
+                $fourth_team_logo  = get_field('fourth_team_logo', $post->ID);
+                $date  = get_field('date', $post->ID);
+                 
+			?>
+
+            <div class="row roundBox">
+                <div class="col-md-12 text-center">
+                    <div class="Tr1 <?php if($k%4==0){ ?> c3 <?php } ?>"><?php echo $date; ?> </div>                    
+                </div>
+
+
+            
+
+                
+                <div class="col-md-6">
+                    <div class="MatchBox1"  data-aos="fade-up">
+                        <div class="MatchTime"><?php echo $match_time;?></div>
+                            <div class="MatcWrp">
+                                <div class="MatchBox">
+                                    <div class="MatchBoxL">
+                                        <img src="<?php echo $first_team_logo;?>" class="TeamLogo"/>
+                                        <div class="TeamName"><?php echo $first_team_name;?></div>
+                                    </div>
+                                    <div class="MatchBoxM">
+                                        <img src="https://ik.imagekit.io/9slxd5rrd/vs.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669827787812" class="VsImage"/>
+                                    </div>
+                                    <div class="MatchBoxR">
+                                        <img src="<?php echo $second_team_logo;?>" class="TeamLogo"/>
+                                        <div class="TeamName"><?php echo $second_team_name;?></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="BookNowWrp text-center">
+                                <a href="<?php echo  $booking_link;?>" target="_blank">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-6">
+                        <div class="MatchBox1"  data-aos="fade-up">
+                            <div class="MatchTime"><?php echo $second_match_time;?></div>
+                            <div class="MatcWrp">
+                                <div class="MatchBox">
+                                    <div class="MatchBoxL">
+                                        <img src="<?php echo  $third_team_logo;?>" class="TeamLogo"/>
+                                        <div class="TeamName"><?php echo  $third_team_name;?></div>
+                                    </div>
+                                    <div class="MatchBoxM">
+                                        <img src="https://ik.imagekit.io/9slxd5rrd/vs.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669827787812" class="VsImage"/>
+                                    </div>
+                                    <div class="MatchBoxR">
+                                        <img src="<?php echo $fourth_team_logo;?>" class="TeamLogo"/>
+                                        <div class="TeamName"><?php echo $fourth_team_name;?></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="BookNowWrp text-center">
+                                <a href="<?php echo $second_booking_link;?>" target="_blank">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+                <?php  
+                    endwhile;
+                    endif; 
+                    wp_reset_postdata();
+                ?>
+
+
+
+
+                   
+
+
+
+
+
+
+            
+            
+        </div>
+    </div>
+</div>
+<div class="section3" id="section3">
+    <div class="container">
+        <div class="S3T1" data-aos="fade-up">
+            <?php echo $third_title;?>
+        </div>
+        <div class="row mobilePad1">
+            <div class="col-md-4">
+                <div class="S3Sb1" data-aos="fade-up">
+                    <div>
+                        <?php echo $third_first_content;?>
+                    </div>
+                    <div>
+                        <?php echo  $third_second_content;?>
+                    </div>
+                    <div>
+                        <?php echo  $third_fourth_content;?>
+                    </div>
+                </div>
+                <div class="SliderBox" data-aos="fade-up">
+                    <section class="regular slider">
+
+                        <?php
+
+				//$images = acf_photo_gallery('gallery_images'); 
+				$images = acf_photo_gallery('album_images', '7'); 
+				if( $images ):
+				foreach($images as $image){ 
+				$id = $image['id']; // The attachment id of the media
+				$title = $image['title']; //The title
+				$caption= $image['caption']; //The caption
+				$url= $image['url']; //The caption
+				$full_image_url= $image['full_image_url']; //Full size image url
+				$full_image_url = acf_photo_gallery_resize_image($full_image_url, 448, 299); //Resized size to 448px width by 299px height image url
+				$thumbnail_image_url= $image['thumbnail_image_url']; //Get the thumbnail size image url 150px by 150px
+				$url= $image['url']; //Goto any link when clicked
+				$target= $image['target']; //Open normal or new tab
+				$alt = get_field('photo_gallery_alt', $id); //Get the alt which is a extra field (See below how to add extra fields)
+				$class = get_field('photo_gallery_class', $id); //Get the class which is a extra field (See below how to add extra fields)
+			?>
+
+
+                        <div>
+                            <a data-fancybox="gallery" href="<?php echo $full_image_url; ?>">
+                                <img src="<?php echo $full_image_url; ?>" /></a>
+                        </div>
+
+                        <?php 
+				}  
+				endif; 
+			?>
+
+
+                    </section>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div data-aos="fade-up">
+
+                    <a data-fancybox href="<?php echo $seat_image;?>">
+                        <div class="QuickViewIcon c1">
+                            <img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABOElEQVRIid2UT04CMRjFOybORrwHcWJwI+AFuIQH0SVL3TA63kbiyngBwQuIJ0CTGRL054JHbDB0vuK/xJc00zbve++109a5fwsgA3JgDLyojTWXfUU4Ba6AOesxBwog3UR8KJESuADawI5aB7gEKnGGUSZKDvAI7Ad4LWAibmEVz7T0MiS+YlKpZs9ikCtRbkq0qClUM7CQH0Q+jDDoqGZkIU9Fbmh8B9zW9HdVM12nuxXwfHPOUdO3w9uidkRNt26L/BVc63sckWvJvbGkWR7TCmgZ+AfATDVNUxzv2E1CJhJ/ij3WDtj2nopKhl2goXak2z7jAz2zgUxSCYceu1ddzJ431481yoABMAKeWTzX9xJuejw2NjEGOVkxOftVk9BNNiNJknPn3Kk3VX6H7icA/R/5D3+Kd2BEKmFIDckDAAAAAElFTkSuQmCC">
+
+                        </div>
+                        <img class="gallery" src="<?php echo $seat_image;?>" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section4" id="section4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="S3T1" data-aos="fade-up">
+                    <?php echo $fourth_title;?>
+                </div>
+                <div class="S3Sb1" data-aos="fade-up">
+                    <div>
+                        <?php echo $fourth_first_content;?>
+
+                    </div>
+                    <div>
+                        <?php echo $fourth_second_content;?>
+                    </div>
+                </div>
+                <div class="menuImage open_fancybox2 cursor-pointer" data-aos="fade-up">
+                    <img src="https://footballatfive.com/wp-content/uploads/2022/11/menuimage.png" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="BandImage open_fancybox" data-aos="fade-up">
+                    <img src="https://footballatfive.com/wp-content/uploads/2022/11/band.png" />
+                </div>
+            </div>
+        </div>
+        <div class="text-center" data-aos="fade-up">
+            <?php if ($view_menu) { ?>
+            <a href="<?php echo $view_menu;?>" class="ViewMenuBtn" target="_blank">View Menu</a>
+            <?php } else { ?>
+            <a href="#" class="ViewMenuBtn">View Menu</a>
+
+            <?php } ?>
+
+
+        </div>
+    </div>
+</div>
+<div class="section5" id="section5">
+    <div class="">
+        <div class="row m-0">
+            <div class="col-md-7 positionRelative p-0"
+                style="babground:url(https://footballatfive.com/wp-content/uploads/2022/11/partyLeft.jpg)">
+                <!-- <img class="deskh" src="https://footballatfive.com/wp-content/uploads/2022/11/partyLeft.jpg"/> -->
+                <div class="PartyTextBlock">
+                    <div>
+                        <div class="Latr">
+                            <div class="Ap1">KICK OFF<img
+                                    src="https://footballatfive.com/wp-content/uploads/2022/11/round.png" /></div>
+                            <div class="Ap2">THE PARTY</div>
+                        </div>
+                        <div class="S3Sb1 ">
+                            <div>
+                                <?php echo $fifth_first_content;?>
+                            </div>
+                            <div>
+                                <?php echo $fifth_second_content;?>
+                            </div>
+                            <div>
+                                <?php echo $fifth_third_content ;?>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 p-0">
+                <img class="width-full" src="<?php echo $fifth_image;?>" />
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="section6" id="section6">
+    <div class="row">
+        <div class="col-md-6">
+            <div data-aos="fade-up">
+                <a href="https://g.page/fivepalmjumeirah?share" target="_blank">
+                    <img class="locationImage"
+                        src="https://footballatfive.com/wp-content/uploads/2022/11/location.jpg" />
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="ContactBox">
+                <div class="CT1" data-aos="fade-up">contact</div>
+                <div class="Ct2" data-aos="fade-up">BOOK NOW</div>
+                <div data-aos="fade-up">
+                    <a class="Ct3" href="mailto:<?php echo $contact_email;?>">
+                        <?php echo $contact_email;?>
+                    </a>
+                    <a class="Ct4" href="tel:<?php echo $contact_phone_number;?>">
+                        <?php echo $contact_phone_number;?>
+                    </a>
+                </div>
+                <div class="Ct2" data-aos="fade-up">FIND US HERE</div>
+                <div data-aos="fade-up">
+                    <a href="https://g.page/fivepalmjumeirah?share" class="ct5" target="_blank">
+                        <?php echo  $address;?>
+                    </a>
+                </div>
+                <div class="socialBox">
+                    <ul class="f-list f-list-inline social">
+                        <li>
+                            <a href="<?php echo $instagram_link;?>" target="_blank" rel="noopener">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                                    viewBox="0 0 50 50" style="fill: #000000">
+                                    <path
+                                        d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z">
+                                    </path>
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $facebook_link;?>" target="_blank" rel="noopener">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                                    viewBox="0 0 50 50" style="fill: #000000">
+                                    <path
+                                        d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $whatsapp_number;?>" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                                    viewBox="0 0 50 50" style="fill: #000000">
+                                    <path
+                                        d="M25,2C12.318,2,2,12.318,2,25c0,3.96,1.023,7.854,2.963,11.29L2.037,46.73c-0.096,0.343-0.003,0.711,0.245,0.966 C2.473,47.893,2.733,48,3,48c0.08,0,0.161-0.01,0.24-0.029l10.896-2.699C17.463,47.058,21.21,48,25,48c12.682,0,23-10.318,23-23 S37.682,2,25,2z M36.57,33.116c-0.492,1.362-2.852,2.605-3.986,2.772c-1.018,0.149-2.306,0.213-3.72-0.231 c-0.857-0.27-1.957-0.628-3.366-1.229c-5.923-2.526-9.791-8.415-10.087-8.804C15.116,25.235,13,22.463,13,19.594 s1.525-4.28,2.067-4.864c0.542-0.584,1.181-0.73,1.575-0.73s0.787,0.005,1.132,0.021c0.363,0.018,0.85-0.137,1.329,1.001 c0.492,1.168,1.673,4.037,1.819,4.33c0.148,0.292,0.246,0.633,0.05,1.022c-0.196,0.389-0.294,0.632-0.59,0.973 s-0.62,0.76-0.886,1.022c-0.296,0.291-0.603,0.606-0.259,1.19c0.344,0.584,1.529,2.493,3.285,4.039 c2.255,1.986,4.158,2.602,4.748,2.894c0.59,0.292,0.935,0.243,1.279-0.146c0.344-0.39,1.476-1.703,1.869-2.286 s0.787-0.487,1.329-0.292c0.542,0.194,3.445,1.604,4.035,1.896c0.59,0.292,0.984,0.438,1.132,0.681 C37.062,30.587,37.062,31.755,36.57,33.116z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+<?php get_footer(); ?>
