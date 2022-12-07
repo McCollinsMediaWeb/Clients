@@ -2833,3 +2833,7 @@ width: auto;
     text-transform: capitalize;
     margin-bottom: 10px;
 }
+.BlogItemImage {
+    object-fit: cover;
+    height: 325px;
+}
