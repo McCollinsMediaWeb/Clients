@@ -1,0 +1,2538 @@
+<?php /* Template Name: concierge-desktop */ ?>
+
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M7CFPF3');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Ads: 880518361 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-880518361"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-880518361');
+    </script>
+
+
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" />
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+    <title>Business Setup in Dubai, UAE | Company Formation Dubai, UAE | BIZ</title>
+
+    <meta name="description"
+        content="We can help setup your business in Dubai or anywhere in the UAE. Contact us for all your company formation needs in Dubai, UAE" />
+
+    <meta property="og:locale" content="en_US" />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="Business Setup in Dubai, UAE | Company Formation Dubai, UAE | BIZ" />
+
+    <meta property="og:description"
+        content="We can help setup your business in Dubai or anywhere in the UAE. Contact us for all your company formation needs in Dubai, UAE" />
+
+    <meta property="og:url" content="https://www.businessincorporationzone.ae/" />
+
+    <meta property="og:site_name" content="Business Incorporation Zone" />
+    <meta property="article:modified_time" content="2022-05-05T11:39:50+00:00" />
+
+    <meta property="og:image"
+        content="https://www.businessincorporationzone.ae/wp-content/uploads/2022/01/Icon_Soloution.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="twitter:label1" content="Est. reading time" />
+
+    <meta name="twitter:data1" content="25 minutes" />
+
+    <meta name="google-site-verification" content="nwcAgi6uheF3NXoBlYRpX75d2w1BEtICW_W-sRhNaKU" />
+
+    <link rel="icon" sizes="32x32"
+        href="https://cdn-cgoeb.nitrocdn.com/UdsmbIVttbRjnnbQQCJYmUEPSMOCeNDn/static/optimized/rev-b1b4a47/wp-content/uploads/2022/02/Favicon.png" />
+
+    <link rel="icon" sizes="192x192"
+        href="https://cdn-cgoeb.nitrocdn.com/UdsmbIVttbRjnnbQQCJYmUEPSMOCeNDn/assets/static/optimized/rev-b1b4a47/wp-content/uploads/2022/02/Favicon.png" />
+
+    <link rel="apple-touch-icon"
+        href="https://cdn-cgoeb.nitrocdn.com/UdsmbIVttbRjnnbQQCJYmUEPSMOCeNDn/assets/static/optimized/rev-b1b4a47/wp-content/uploads/2022/02/Favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <style>
+        .Preloader.hidden {
+            left: -100% !important;
+        }
+
+        .Preloader span {
+            display: inline-block;
+            position: relative;
+            animation: loading 2s infinite;
+            transition: 0.8s;
+        }
+
+        @keyframes loading {
+            0% {
+                opacity: 1;
+                top: -10px;
+            }
+
+            20% {
+                opacity: 0.8;
+                top: 10px;
+            }
+
+            80% {
+                opacity: 0.6;
+                top: -10px;
+            }
+
+            90% {
+                opacity: 0.4;
+                top: 10px;
+            }
+
+            100% {
+                opacity: 0.2;
+                top: -10px;
+            }
+        }
+
+        .DesktopOnly {
+            display: block;
+        }
+
+        .MobileOnly {
+            display: none;
+        }
+
+        #gform_confirmation_message_13 {
+            color: #fff !important;
+        }
+
+        .active.navBtnTxt2 {
+            border-bottom: 3px solid #d6e4bd !important;
+        }
+
+        body .HCnt1 {
+            right: 33.33%;
+            max-width: 33.33%;
+            border-top-right-radius: 70px;
+            border-top-left-radius: 70px;
+        }
+
+        .footerLogo {
+            margin-left: -8px;
+        }
+
+        @media screen and (max-width: 800px) {
+            .DesktopOnly {
+                display: none !important;
+            }
+
+            .MobileOnly {
+                display: block;
+            }
+
+            .HdTxt2 {
+                line-height: 1.2;
+            }
+
+            .BtnS1.cs2 {
+                max-width: 100% !important;
+            }
+
+            .FullwidthSlider {
+                margin-top: -25px;
+            }
+
+            body {
+                overflow-x: hidden !important;
+            }
+
+            html body .Preloader {
+                left: -100% !important;
+            }
+
+            body .HCnt1 {
+                right: 0%;
+                max-width: 100%;
+                border-top-right-radius: 70px;
+                border-top-left-radius: 70px;
+
+            }
+
+            .section9 {
+                padding: 35px 35px 0px 35px !important;
+            }
+
+            .HeroItem12 {
+                min-height: 600px;
+                background: #e4e4e4;
+            }
+
+            html {
+                width: 100%;
+                height: 100%;
+                overflow-x: hidden;
+                position: relative;
+            }
+
+            body {
+                position: relative;
+                overflow-x: hidden !important;
+                user-select: none;
+            }
+        }
+
+        .serviceBoxT1 {
+            padding: 60px 0px;
+            background: #F4F4F4;
+        }
+
+        .SrT1 {
+            font-size: 40px;
+            font-family: 'Montserrat';
+            font-weight: 900;
+            font-style: normal;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        .SrT2 {
+            margin-top: 20px;
+            border-radius: 25px;
+        }
+
+        .CslideCnt img {
+            max-height: 400px;
+            object-fit: cover;
+            width: 100% !important;
+            border-radius: 25px;
+        }
+
+        .ServiceName .ReadMore img {
+            background: transparent !important;
+            max-width: 35px !important;
+            postion:relative !important;
+            top:-1px !important;
+            margin:0 !important;
+        }
+
+        .ServiceName .ReadMore {
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 1;
+            display:flex;
+            align-items:center;
+        }
+        .CslideCnt:hover .ServiceName{
+            background:#8376B2;
+        }
+        .ServiceName {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            z-index: 3;
+            font-size: 20px;
+            width: 100%;
+            text-transform: capitalize;
+            cursor: pointer;
+            line-height: 1.1;
+            font-family: 'Montserrat';
+            font-weight: 900;
+            font-style: normal;
+            color: #fff;
+            padding: 25px;
+            border-radius:25px;
+            transition:0.3s;
+        }
+
+        .CslideCnt {
+            margin: 0px 5px;
+            overflow: hidden;
+
+        }
+        .serviceBoxT1 .Line1{
+            margin-bottom:30px;
+        }
+        .CslideCnt:after {
+            content: "";
+            background-color: rgba(244,244,244, 0.4);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 25px;
+            transition:0.4s;
+        }
+        .slick-active .CslideCnt:after {
+            background-color: rgba(0, 0, 0, 0.2);
+        } 
+        .serviceBoxT1 .container {
+            max-width: 1200px;
+        }
+
+        .ServiceDesc {
+            position: absolute;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #EDD194;
+            z-index: 3;
+            border-radius: 25px;
+            font-size: 15px;
+            transition: 0.4s;
+            flex-direction: column;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .ServiceDesc .HCnt1t1 {
+            font-size: 20px;
+            line-height: 1.2;
+        }
+
+        .ServiceDesc.active {
+            right: 0px;
+        }
+
+        .ServiceDesc .BtnS1.cs2 {
+            max-width: 100%;
+            font-size: 14px;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .ServiceDesc .HCnt1t2 {
+            line-height: 1.3;
+        }
+
+        .serviceBoxT1 .slick-prev:before,
+        .serviceBoxT1 .slick-next:before {
+            font-size: 40px;
+        }
+        @media screen and (max-width: 800px) {
+            .serviceBoxT1 .HdTp2{
+                font-size:34px;
+            }
+            .serviceBoxT1 .Line1 {
+                text-align: center !important;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            .serviceBoxT1 .Line1 svg{
+                max-width:80%;
+            }
+            .ServiceName{
+                font-size:18px;
+            }
+            .ServiceName .ReadMore{
+                font-size:15px;
+            }
+            .ServiceDesc .HCnt1t1{
+                font-size:16px;
+            }
+            .ServiceDesc .BtnS1.cs2{
+                font-size:11px;
+            }
+            .ServiceDesc .HCnt1t2{
+                font-size:13px;
+            }
+            .HdTp2 {
+                font-size: 32px !important;
+                padding-bottom: 0px !important;
+            }
+            .CardWr {
+                padding: 30px 0px !important;
+            }
+            .CardWr .slick-prev:before, 
+            .CardWr .slick-next:before {
+                font-size: 40px !important;
+            }
+        }
+        .CardWr{
+            padding:60px 0px ;
+            background:#F4F4F4;
+        }
+        .CardWr .HdTp2 {
+            color:#404040;
+            line-height:1;
+        }
+        .HdTp2 {
+            color:#404040 !important;
+            line-height:1;
+        }
+        .CardWr .Line1 {
+                margin: 20px 0px 40px 0px;
+        }
+        .CardWr .container{
+            max-width:1400px;
+        }
+        .CardWrap{
+            display: flex;
+    height: 590px;
+    position:relative;
+        }
+        
+        .hero__person {
+    position: relative;
+    overflow: hidden;
+    width: 14%;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.hero__person.active{
+    width:30%;
+}
+.hero__person.active .hero__person-txt-less{
+    display:none;
+    right: 0;
+    padding-top: 20px;
+}
+.hero__person.active .hero__person-txt-more{
+    opacity:1;
+}
+.hero__person-cont {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.hero__person-img {
+    position: relative;
+    z-index: 0;
+    display: block;
+    height: 115%;
+    min-width: 490px;
+    object-fit:cover;
+}
+.hero__person-grad {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(50%,transparent),to(rgba(0,0,0,.8)));
+    background-image: linear-gradient(180deg,transparent 50%,rgba(0,0,0,.8));
+    color: #fff;
+}
+.hero__person-txt-less {
+    position: absolute;
+    bottom: 80px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 120px;
+    height: 95px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 1;
+/*     -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg); */
+}
+.hero__person-title {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 26px;
+    line-height: 1.1em;
+	margin-left: 20px;
+}
+.hero__person-square {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    width: 185px;
+    height: 100%;
+    margin-left: -24px;
+    background-color: #8376B2;
+	border-radius: 5px;
+}
+.hero__person-square.c2{
+    background-color: #d99980a3;
+}
+.hero__person-square.c3{
+    background-color: #EDD194a3;
+}
+.hero__person-square.c4{
+    background-color: #8376B2a3;
+}
+.hero__person-square.c5{
+    background-color: #8ebd99a3;
+}
+.hero__person-square.c1{
+    background-color: #C4D99Fa3;
+}
+.hero__person-square.c6{
+    background-color: #8cbfc3a3;
+}
+.hero__person-txt-more {
+    position: absolute;
+    bottom: 78px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0;
+    transition:0.4s;
+}
+.CardWrap .ServiceDesc{
+        color: #414141;
+        border-radius:10px;
+}
+.hero__person-title .ReadMore{
+    font-size: 17px;
+}
+    </style>
+    <style type="text/css">
+    .IconLinkWrp .row{
+        margin:0 -5px;
+    }
+    .IconLinkWrp .row .col-md-6{
+        padding:0 5px;
+    }
+        .HeroC{
+            min-height: 100vh;
+            background-color: #e7eff1;
+            padding: 40px 0px;
+            background-size: cover;
+            background-position: right bottom;
+            transition: 0.5s;
+        }
+        .Logo img{
+            max-width: 270px;
+            margin-bottom: 10px;
+            margin-left:-15px;
+        }
+        .HeroC1 {
+            font-size: 42px;
+            line-height: 1.2;
+             color: #fff;
+        }
+        
+        .HeroC2 {
+            font-size: 21px;
+            font-weight: 600 !important;
+            text-transform: uppercase;
+            line-height: 1.3;
+            margin: 30px 0px;
+            color:#FF6B00;
+        }
+        .IconLink{
+            display: flex;
+            border: 2px solid;
+            padding: 13px 15px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            align-items: center;
+            margin-bottom: 10px;
+            transition: 0.3s;
+            color: #fff !important;
+        }
+        .IconLink:visited {
+            color: #fff !important;
+        }
+        .col-md-6:nth-last-child(2)  .IconLink ,  .col-md-6:last-child  .IconLink{
+            margin-bottom: 0;
+        }
+        
+        .IconLink  .IconLinkL{
+            flex: 0 0 60px;
+        }
+        .IconLink  .IconLinkL span{
+            width: 38px;
+            height: 38px;
+            background-size: 100% 100%;
+            display: inline-block;
+        }
+        .IconLink  .IconLinkL span.visa{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/hvisa.png);
+        }
+        .IconLink  .IconLinkL span.id{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/hid.png);
+        }
+        .IconLink  .IconLinkL span.work-space{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/hwork-space.png);
+        }
+        .IconLink  .IconLinkL span.bank{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/hbank.png);
+        }
+        .IconLink  .IconLinkL span.accounts{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/haccounts.png);
+        }
+        .IconLink  .IconLinkL span.certificate{
+            background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ/hcertificate.png);
+        }
+
+       
+
+        .IconLink  .IconLinkR{
+            flex: auto;
+            line-height: 1.1;
+            font-size: 17px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        .HeroC .Box1{
+            margin: 0;
+            height: 100%;
+            background-color: #fff;
+        }
+        body .HeroC .Box1Txt1{
+            color: #404040 !important;
+    margin-bottom: 30px !important;
+    text-transform: capitalize;
+    font-size: 19px !important;
+        }
+        .HeroC .InptTp1 input, 
+        .HeroC .InptTp1 select {
+            border: 2px solid #404040 !important;
+            border-radius: 30px !important;
+            color: #404040 !important;
+            font-size: 14px !important;
+            padding: 7px 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .HeroC .InptTp1 input::placeholder {
+        color: #404040;
+        opacity: 1; 
+        }
+
+        .HeroC .InptTp1 input:-ms-input-placeholder { 
+            color: #404040;
+        }
+
+        .HeroC .InptTp1 input::-ms-input-placeholder { 
+            color: #404040;
+        }
+        .gfield .iti.iti--allow-dropdown input{
+            margin-bottom: 10px !important;
+        }
+        .HeroC .gform_footer input.button{
+            border: 2px solid #FF6B00 !important;
+            background: #FF6B00 !important;
+        }
+        .desktop-only{
+                display: block !important;
+            }
+            .mobile-only{
+                display: none  !important;
+            }
+        @media only screen and (max-width: 786px) {
+            
+            .HeroC1 {
+                line-height: 1.2;
+                font-size: 23px;
+            }
+            .HeroC .row .col-md-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .col-md-6:nth-last-child(2) .IconLink, .col-md-6:last-child .IconLink {
+                margin-bottom: 10px;
+            }
+            .HeroC2 {
+                font-size: 17px;
+                margin: 10px 0px;
+            }
+            body .HeroC .Box1Txt1 {
+                margin-bottom: 13px !important;
+                font-size: 17px !important;
+            }
+            .Logo img {
+                max-width: 220px;
+                margin-bottom: 0px;
+                    margin-left: -10px;
+            }
+            .HeroC .Box1 {
+                margin-top: 10px;
+            }
+            .HeroC{
+                background-image: url(https://www.businessincorporationzone.ae/wp-content/uploads/2022/11/Biz_Banner_iphone_468x925px_3bnew.jpg) !important;
+            }
+            .desktop-only{
+                display: none !important;
+            }
+            .mobile-only{
+                display: block  !important;
+                margin-top: 45px;
+            }
+            .col-md-6:last-child .IconLink{
+                margin-bottom: 0;
+            }
+            #a7 .container{
+                padding: 0;
+            }
+            .HeroC{
+                padding-top:10px;
+            }
+            .Box1{
+               max-width:100%; 
+            }
+        }
+		
+		.IconLinkWrp.mobile-only .col-md-6 {
+			background:transparent;
+		}
+        
+        
+    </style>
+
+    <script src="https://jbeanijas.github.io/landing1/assets/js/jquery.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://jbeanijas.github.io/landing1/assets/slick/slick.css">
+
+    <link rel="stylesheet" type="text/css" href="https://jbeanijas.github.io/landing1/assets/slick/slick-theme.css">
+
+    
+
+    <link rel="stylesheet" type="text/css"
+        href="https://jbeanijas.github.io/landing1/assets/css/biz-main-desktop.css?ver=1.3">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://jbeanijas.github.io/landing1/assets/css/responsive.css?ver=1.37">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://www.businessincorporationzone.ae/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.5.16">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://www.businessincorporationzone.ae/wp-content/plugins/gravityforms/js/datepicker-legacy.min.js?ver=2.5.16">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://www.businessincorporationzone.ae/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.5.16">
+
+    <link rel="stylesheet" type="tex -->t/css"
+        href="https://www.businessincorporationzone.ae/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=1.1">
+
+
+
+    <?php
+
+    wp_head(); ?>
+<style>
+    /*Button Style */
+    .btn{
+            text-transform: uppercase;
+            border-radius: 30px;
+            padding: 15px 60px;
+            font-family: 'Montserrat';
+            font-weight: 900;
+
+        }
+        .btn.center{
+            margin: 0px auto;
+        }
+        .btn.btn-teal{
+            background-color: #97C6CA;
+            border: 2px solid #8376B2;
+            color: white;
+        }
+        
+        .other-services-wrapper{
+            width: 60%;
+            background-color: #97C6CA;
+            border-radius: 30px;
+            border: 2px solid #8376B2;
+            padding: 20px;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            display: flex;
+            transition: all 0.3s;
+            z-index: 9;
+            display: none;
+            
+        }
+        .other-services-wrapper.active{
+            display: block;
+        }
+       
+        .other-services{
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            color: white;
+            /* list-style: none; */
+            /* font-family: 'Montserrat'; */
+            font-size: 1.4rem;
+
+        }
+        .other-services li{
+            width: 33%;
+            float: left;
+        }
+        @media only Screen and (max-width: 768px) {
+            .other-services li{
+                width: 100%;
+                font-size: 1rem;
+                line-height: 1.2;
+                margin-bottom: 10px;
+                list-style: disc;
+            }
+            .other-services-wrapper{
+                width: 85%;
+            }
+            .other-services{
+                margin-left: 20px;
+            }
+        }
+        .CardWrap.landscape{
+            height: 150px;
+        }
+        .hero__person-landscape{
+            margin: 0 auto;
+            transition: 0.5s;
+            cursor: pointer;
+            width: 500px;
+
+        }
+        .hero__person-landscape .hero__person-txt-less{
+            bottom: 50%;
+            transform: translateY(50%);
+        }
+        .hero__person-landscape.active{
+            width: 100%;
+        }
+        .hero__person-landscape.active .hero__person-txt-less{
+            display: none;
+        }
+        .hero__person-landscape .hero__person-title{
+            width: 100%;
+        }
+        .hero__person-landscape .hero__person-txt-more{
+            bottom: 65%;
+            transform: translateY(50%);
+        }
+        .hero__person-landscape.active .hero__person-txt-more{
+            opacity: 1;
+        }
+        .btn-other-services{
+            display: none;
+            position: absolute;
+            bottom: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            padding: 10px;
+        }
+        .hero__person-landscape.active .btn-other-services{
+            display: block;
+        }
+</style>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7CFPF3" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!--<div class="Preloader"-->
+    <!--    style="background-image: url(https://jbeanijas.github.io/landing1/assets/desktop-images/slidebg.jpg);height:100%;width:100%;position:fixed;top:0;left:0px;z-index:999;display: flex;justify-content: center;align-items: center;transition: 0.5s;">-->
+    <!--    <span class="" style="font-size: 50px;color:#fff; font-weight: bold;">Loading..</span>-->
+    <!--</div>-->
+
+    <section class="pageWrapper" id="well">
+
+
+
+        <div class="HeroC" style="background-image: url(https://www.businessincorporationzone.ae/wp-content/uploads/2022/11/Biz_Banner_Concierge_1920x1102px_3a.jpg);">
+            <div class="container">
+                <div class="Logo">
+                    <img src="https://mccollinsmediaweb.github.io/Clients/BIZ/logo-white.png"/>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="LftCnt">
+                            <div class="HeroC1 font-Bold">
+
+                                Increase <span>Business Efficiency</span> While Relaying On Stability, <span>Structure and convinience</span>
+        
+                            </div>
+                            <div class="HeroC2 font-medium">One Stop Solution For All Your Business Needs</div>
+                            <div class="IconLinkWrp desktop-only">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div href="javascript:void(0)" class="IconLink servicebutton" data-val="Corporate banking">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage accounts">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Corporate Bank <br/> Account Opening</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div href="javascript:void(0)" class="IconLink servicebutton" data-val="Visa">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage visa">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Dependent And <br/> Sponsorship Visas</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div href="javascript:void(0)" class="IconLink servicebutton" data-val="Medical and Emirates ID">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage id">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Emirates ID And <br/> Medical Registration</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div href="javascript:void(0)" class="IconLink servicebutton" data-val="Tax and Accounting">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage bank">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Tax And Accounting <br/> Services</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div href="javascript:void(0)" class="IconLink servicebutton" data-val="Documents Attestation">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage certificate">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Documents <br/> Attestation</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div href="javascript:void(0)" class="IconLink servicebutton" data-val="Co-working and office space solution">
+                                            <div class="IconLinkL">
+                                                <span class="IconImage work-space">&nbsp;</span>
+                                            </div>
+                                            <div class="IconLinkR">Co-working And <br/> Office Space Solutions</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="contactForm" class="FormTp1">
+
+                            <div id="submit-form" action="#">
+    
+                                <div>
+    
+                                    <div class="Box1">
+    
+                                        <div class="Box1Txt1">
+    
+                                            <span class="font-bold"> We are here to </span>
+    
+                                            <span class="font-bold">help you excel</span>
+    
+                                        </div>
+    
+                                        <div class="FormElements">
+    
+                                            <?php
+    
+    
+    
+                                            gravity_form_enqueue_scripts(13, true);
+    
+                                            echo do_shortcode('[gravityform id="13" title="false" description="false" ajax="true"]'); ?>
+    
+                                        </div>
+    
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="IconLinkWrp mobile-only">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div  class="IconLink servicebutton" data-val="Corporate banking">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage accounts">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Corporate Bank <br/> Account Opening</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div  class="IconLink servicebutton" data-val="Visa">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage visa">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Dependent And <br/> Sponsorship Visa</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div  class="IconLink servicebutton" data-val="Medical and Emirates ID">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage id">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Emirates Id And <br/> Medical Registration</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div  class="IconLink servicebutton" data-val="Tax and Accounting">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage bank">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Tax And Accounting <br/> Services</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div  class="IconLink servicebutton" data-val="Documents Attestation">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage certificate">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Document <br/> Attestation</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div  class="IconLink servicebutton" data-val="Co-working and office space solution">
+                                        <div class="IconLinkL">
+                                            <span class="IconImage work-space">&nbsp;</span>
+                                        </div>
+                                        <div class="IconLinkR">Co-working And <br/> Office Space Solutions</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section class=" CardWr">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="HdTp2 font-black">Our Services</div>
+                        <div class="Line1 text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="352" height="2.708" viewBox="0 0 352 2.708">
+                                <defs>
+                                    <linearGradient id="linear-gradient" x1="0.956" y1="1" x2="0.055" y2="1"
+                                        gradientUnits="objectBoundingBox">
+                                        <stop offset="0" stop-color="#dab28c"></stop>
+                                        <stop offset="0.338" stop-color="#b0909e"></stop>
+                                        <stop offset="0.739" stop-color="#8177b2"></stop>
+                                        <stop offset="1" stop-color="#94bda5"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect id="Rectangle_522" data-name="Rectangle 522" width="352" height="2.708"
+                                    fill="url(#linear-gradient)"></rect>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="CardWrap DesktopOnly">
+                            <div class="hero__person">
+                                <div class="hero__person-cont">
+                                    <img class="hero__person-img" src="https://jbeanijas.github.io/landing1/assets/desktop-images/m1.jpg"/>
+                                    <div class="hero__person-grad">
+                                        <div class="hero__person-txt-less">
+                                            <div class="hero__person-title stroke--white-02">Banking</div>
+                                            <div class="hero__person-square c1"></div>
+                                        </div>
+                                        <div class="hero__person-txt-more">
+                                            <div class="hero__person-title stroke--white-02">
+                                                <div>Corporate bank <br/>account opening</div>
+                                                <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Corporate bank account opening
+                                            </div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>To help lighten the starting of a new enterprise and enhance
+                                                    velocity of your business journey we have dedicated team to get you
+                                                    started. Corporate bank account opening is our best-selling service
+                                                    that comes with an impressive 97% success opening rate.</div>
+                                                <div>It gets even better: We believe in a fair partnership, hence, if
+                                                    your application does not get approved you will get 80% of payment
+                                                    back.</div>
+                                            </div>
+                                            <a data-val="Corporate banking" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Speak to a dedicated
+                                                banker</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__person">
+                                <div class="hero__person-cont">
+                                    <img class="hero__person-img" src="https://jbeanijas.github.io/landing1/assets/desktop-images/m2.jpg"/>
+                                    <div class="hero__person-grad">
+                                        <div class="hero__person-txt-less">
+                                            <div class="hero__person-title stroke--white-02">Visas </div>
+                                            <div class="hero__person-square c2"></div>
+                                        </div>
+                                        <div class="hero__person-txt-more">
+                                            <div class="hero__person-title stroke--white-02">
+                                                <div>Dependent and  <br/> sponsorship visas</div>
+                                                <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Dependent and sponsorship
+                                                visas</div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>Secure stability for you and your family. We offer a wide range of
+                                                    visa support services.
+                                                    We will, on your behalf: apply, renew, or cancel visa for spouse,
+                                                    dependents and employees.
+                                                </div>
+                                            </div>
+                                            <a data-val="Visa" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__person">
+                                <div class="hero__person-cont">
+                                    <img class="hero__person-img" src="https://jbeanijas.github.io/landing1/assets/desktop-images/m3.jpg"/>
+                                    <div class="hero__person-grad">
+                                        <div class="hero__person-txt-less">
+                                            <div class="hero__person-title stroke--white-02">EID</div>
+                                            <div class="hero__person-square c3"></div>
+                                        </div>
+                                        <div class="hero__person-txt-more">
+                                            <div class="hero__person-title stroke--white-02">
+                                                <div>Emirates ID and  <br/> Medical registration</div>
+                                                <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Emirates ID and Medical
+                                                registration</div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>We will make your mandatory physical medical tests required to
+                                                    obtain UAE residency seamless. We will fast-track your application
+                                                    for hassle-free experience from pick up, drop off and collection.
+                                                </div>
+                                            </div>
+                                            <a data-val="Medical and Emirates ID" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__person">
+                                <div class="hero__person-cont">
+                                    <img class="hero__person-img" src="https://jbeanijas.github.io/landing1/assets/desktop-images/m4.jpg"/>
+                                    <div class="hero__person-grad">
+                                        <div class="hero__person-txt-less">
+                                            <div class="hero__person-title stroke--white-02">Attestations</div>
+                                            <div class="hero__person-square c4"></div>
+                                        </div>
+                                        <div class="hero__person-txt-more">
+                                            <div class="hero__person-title stroke--white-02">
+                                                <div>Documents  <br/> Attestation</div>
+                                                <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Documents Attestation</div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>Need to get your documents attested? We work closely with several
+                                                    embassies and foreign affairs ministries to get this done for you.
+                                                    We also provide a complimentary pick up and drop off service all
+                                                    over UAE.
+                                                </div>
+                                            </div>
+                                            <a data-val="Documents Attestation" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Attest my documents now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__person">
+                                <div class="hero__person-cont">
+                                    <img class="hero__person-img" src="https://jbeanijas.github.io/landing1/assets/desktop-images/m5.jpg"/>
+                                    <div class="hero__person-grad">
+                                        <div class="hero__person-txt-less">
+                                            <div class="hero__person-title stroke--white-02">VAT & <br/> Accounting </div>
+                                            <div class="hero__person-square c5"></div>
+                                        </div>
+                                        <div class="hero__person-txt-more">
+                                            <div class="hero__person-title stroke--white-02">
+                                                <div>Tax and Accounting  <br/>  services </div>
+                                                <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Tax and Accounting services
+                                            </div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>Our team of specialists in the field of VAT rules and regulations
+                                                    can help you understand the policies applicable to your business. We
+                                                    also provide accounting and bookkeeping services, tax advisory and
+                                                    other financial advisory services.
+                                                </div>
+                                            </div>
+                                            <a data-val="Tax and Accounting" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__person">
+                                <div class="hero__person-cont">
+                                    <img class="hero__person-img" src="https://jbeanijas.github.io/landing1/assets/desktop-images/m6.jpg"/>
+                                    <div class="hero__person-grad">
+                                        <div class="hero__person-txt-less">
+                                            <div class="hero__person-title stroke--white-02">Work hub</div>
+                                            <div class="hero__person-square c6"></div>
+                                        </div>
+                                        <div class="hero__person-txt-more">
+                                            <div class="hero__person-title stroke--white-02">
+                                                <div>Co-working and office <br/>  space solution</div>
+                                                <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Co-working and office space
+                                                solution</div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>We offer a variety of flexible workspaces– from dedicated desks to
+                                                    private offices and meeting rooms.
+                                                </div>
+                                            </div>
+                                            <a data-val="Co-working and office space solution" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Find me an office</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="SerSldrWrp MobileOnly">
+                            <div class="slickCenterMode">
+                                <div>
+                                    <div class="CslideCnt position-relative">
+
+                                        <img src="https://jbeanijas.github.io/landing1/assets/desktop-images/m1.jpg">
+                                        <div class="ServiceName">
+                                            <div>Corporate bank <br />account opening</div>
+                                            <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Corporate bank account opening
+                                            </div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>To help lighten the starting of a new enterprise and enhance
+                                                    velocity of your business journey we have dedicated team to get you
+                                                    started. Corporate bank account opening is our best-selling service
+                                                    that comes with an impressive 97% success opening rate.</div>
+                                                <div>It gets even better: We believe in a fair partnership, hence, if
+                                                    your application does not get approved you will get 80% of payment
+                                                    back.</div>
+                                            </div>
+                                            <a data-val="Corporate banking" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Speak to a dedicated
+                                                banker</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="CslideCnt position-relative">
+
+                                        <img src="https://jbeanijas.github.io/landing1/assets/desktop-images/m2.jpg">
+                                        <div class="ServiceName">
+                                            <div>Dependent and <br />sponsorship visas</div>
+                                            <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Dependent and sponsorship
+                                                visas</div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>Secure stability for you and your family. We offer a wide range of
+                                                    visa support services.
+                                                    We will, on your behalf: apply, renew, or cancel visa for spouse,
+                                                    dependents and employees.
+                                                </div>
+                                            </div>
+                                            <a data-val="Visa" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+
+                                    <div class="CslideCnt position-relative">
+
+                                        <img src="https://jbeanijas.github.io/landing1/assets/desktop-images/m3.jpg">
+                                        <div class="ServiceName">
+                                            <div>Emirates ID and <br />Medical registration</div>
+                                            <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Emirates ID and Medical
+                                                registration</div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>We will make your mandatory physical medical tests required to
+                                                    obtain UAE residency seamless. We will fast-track your application
+                                                    for hassle-free experience from pick up, drop off and collection.
+                                                </div>
+                                            </div>
+                                            <a data-val="Medical and Emirates ID" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+
+                                    <div class="CslideCnt position-relative">
+
+                                        <img src="https://jbeanijas.github.io/landing1/assets/desktop-images/m4.jpg">
+                                        <div class="ServiceName">
+                                            <div>Documents Attestation</div>
+                                            <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Documents Attestation</div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>Need to get your documents attested? We work closely with several
+                                                    embassies and foreign affairs ministries to get this done for you.
+                                                    We also provide a complimentary pick up and drop off service all
+                                                    over UAE.
+                                                </div>
+                                            </div>
+                                            <a data-val="Documents Attestation" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Attest my documents now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="CslideCnt position-relative">
+                                        <img src="https://jbeanijas.github.io/landing1/assets/desktop-images/m5.jpg">
+                                        <div class="ServiceName">
+                                            <div>Tax and Accounting&nbsp;<br/>  services  </div>
+                                            <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Tax and Accounting services
+                                            </div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>Our team of specialists in the field of VAT rules and regulations
+                                                    can help you understand the policies applicable to your business. We
+                                                    also provide accounting and bookkeeping services, tax advisory and
+                                                    other financial advisory services.
+                                                </div>
+                                            </div>
+                                            <a data-val="Tax and Accounting" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="CslideCnt position-relative">
+
+                                        <img src="https://jbeanijas.github.io/landing1/assets/desktop-images/m6.jpg">
+                                        <div class="ServiceName">
+                                            <div>Co-working and office<br /> space solution</div>
+                                            <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <div class="HCnt1t1 font-black  wow fadeInUp">Co-working and office space
+                                                solution</div>
+                                            <div class="HCnt1t2 font-medium wow fadeInUp">
+                                                <div>We offer a variety of flexible workspaces– from dedicated desks to
+                                                    private offices and meeting rooms.
+                                                </div>
+                                            </div>
+                                            <a data-val="Co-working and office space solution" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Find me an office</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="CslideCnt position-relative">
+
+                                        <img src="https://www.businessincorporationzone.ae/wp-content/uploads/2022/11/Concierge-Other-Services-mobile-version001.jpg">
+                                        <div class="ServiceName">
+                                            <div>Other<br /> Services</div>
+                                            <div class="ReadMore">
+                                                <img style="max-width:80px;display: inline-block;margin-right: 10px;position: relative;top: 10px;"
+                                                    src="https://jbeanijas.github.io/landing1/assets/images/icons8-right-arrow-32.png"
+                                                    alt="">Read More
+                                            </div>
+                                        </div>
+                                        <div class="ServiceDesc">
+                                            <ul class="other-services">
+                                                <li>Power of Attorney</li>
+                                                <li>UBO Filling</li>
+                                                <li>Driving License Conversion </li>
+                                                <li>Tax Residency Certificate</li>
+                                                <li>NMC License</li>
+                                                <li>Product Registration</li>
+                                                <li>Legal Translation</li>
+                                                <li>Car Registration</li>
+                                                <li>Chamber of Commerce Certificate</li>
+                                            </ul>
+                                            <a data-val="Co-working and office space solution" href="#"
+                                                class="BtnS1 cs2 font-black wow fadeInUp">Find me a service</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="CardWrap DesktopOnly landscape mt-5">
+                            <div class="hero__person-landscape">
+                                <div class="hero__person-cont">
+                                    <img class="hero__person-img" src="https://www.businessincorporationzone.ae/wp-content/uploads/2022/11/Concierge-Other-Services-002.jpg"/>
+                                    <div class="hero__person-grad">
+                                        <div class="hero__person-txt-less">
+                                            <div class="hero__person-title stroke--white-02">Other <br />Services</div>
+                                            <div class="hero__person-square c1"></div>
+                                        </div>
+                                        <div class="hero__person-txt-more">
+                                            <div class="hero__person-title stroke--white-02">
+                                                
+                                                <ul class="other-services">
+                                                    <li>Power of Attorney</li>
+                                                    <li>UBO Filling</li>
+                                                    <li>Driving License Conversion </li>
+                                                    <li>Tax Residency Certificate</li>
+                                                    <li>NMC License</li>
+                                                    <li>Product Registration</li>
+                                                    <li>Legal Translation</li>
+                                                    <li>Car Registration</li>
+                                                    <li>Chamber of Commerce Certificate</li>
+                                                </ul> 
+    
+                                            </div>
+                                            </div>
+                                            <a data-val="Visa" href="#" class="btn-other-services BtnS1 cs2 font-black">Apply Now</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- <div class="col-md-12 text-center">
+                        <a href="javascript:void(0)" class="btn btn-teal mt-5" id="btn-other-services">
+                            Other Services
+                        </a>
+                        
+                        <div class="other-services-wrapper">
+                            <ul class="other-services">
+                                <li>Power of Attorney</li>
+                                <li>UBO Filling</li>
+                                <li>Driving License Conversion </li>
+                                <li>Tax Residency Certificate</li>
+                                <li>NMC License</li>
+                                <li>Product Registration</li>
+                                <li>Legal Translation</li>
+                                <li>Car Registration</li>
+                                <li>Chamber of Commerce Certificate</li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+		
+		<section class="section7 panel" id="a6">
+
+            <div class="container">
+
+                <div class="S7TCntn">
+
+
+
+
+
+                    <div class="S7T1 wow fadeInUp font-black text-center">
+
+                        Why choose us to help you?
+
+                    </div>
+
+                    <div class="S7T2 wow fadeInUp font-medium text-center">We are a team of young minded and energetic
+                        professionals that understands the importance of supporting end to end business needs. We make a
+                        pledge to take care of your business as it is our own. </div>
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+		
+		        <section class="section6 panel" id="a5">
+
+            <div class="wow fadeInUp">
+                <div class="userVideoy"></div>
+
+
+
+
+            </div>
+
+        </section>
+
+        <section class="section8 panel mt-5" id="a7">
+
+            <div class="container">
+
+                <div class=" wow fadeInUp">
+
+
+
+                    <section class="FeaturesSlider1 slider">
+
+                        <div class="SliderItem Mainland Freezone">
+
+                            <div class="Sld" style="width:100%;">
+
+                                <div class="sldr11 text-center">
+
+                                    <div>
+
+                                        <div class="sldr11a font-black">TRUST</div>
+
+                                        <div class="sldr11b font-black"><span >24</span>/7</div>
+
+                                        <div class="sldr11d font-bold">Support</div>
+
+                                        <div class="sldr11c font-medium">You will never be alone. </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="SliderItem Mainland Freezone">
+
+                            <div class="Sld" style="width:100%;">
+
+                                <div class="sldr11 text-center">
+
+                                    <div>
+
+                                        <div class="sldr11a font-black">EXPERIENCE</div>
+
+                                        <div class="sldr11b font-black"><span >12</span>+</div>
+
+                                        <div class="sldr11d font-bold"> Years in business</div>
+
+                                        <div class="sldr11c font-medium">With our experience, knowledge, and network we
+                                            get things done. </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="SliderItem Mainland Freezone">
+
+                            <div class="Sld" style="width:100%;">
+
+                                <div class="sldr11 text-center">
+
+                                    <div>
+
+                                        <div class="sldr11a font-black">DIVERSITY</div>
+
+                                        <div class="sldr11b font-black"><span >10</span>+</div>
+
+                                        <div class="sldr11d font-bold">Value added services</div>
+
+                                        <div class="sldr11c font-medium">We offer a wide range of tailored packages and
+                                            solutions.</div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <div class="pd-r-l wow fadeInUp btnSpace text-center">
+
+                    <a href="javascript:void(0)" class="BtnS1 cs2 font-black wow fadeInUp"
+                        style="margin-left: auto;margin-right:auto;border: 1px solid #aa8da1;">
+
+                        Let’s talk
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+       
+
+
+
+
+        
+
+        <section class="section9 panel" id="a8">
+
+            <div class="S7T1 wow fadeInUp font-black text-center">DO NOT JUST TAKE <br />
+
+                OUR WORD FOR IT </div>
+
+        </section>
+
+        <section class="bgSecond section10 panel" id="a8">
+
+            <div class="container wow fadeInUp">
+
+                <section class="FeaturesSlider3 slider">
+
+
+                    <div class="SliderItem Mainland Freezone">
+
+                        <div class="SliderItem1 nobg w1">
+
+                            <div class="ReviewBox text-center">
+
+                                <div class="ReviewOwnerB1 color2 font-black">V</div>
+
+                                <div class="QuoteLeft">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="87" viewBox="0 0 36 87">
+
+                                        <text id="_" data-name="“" transform="translate(0 69)" fill="#8376b2"
+                                            font-size="71" font-family="Montserrat-Bold, Montserrat" font-weight="700">
+                                            <tspan x="0" y="0">“</tspan>
+                                        </text>
+
+                                    </svg>
+
+                                </div>
+
+                                <div class="ReviewName font-bold">Viola Rose Lagos</div>
+
+                                <div class="ReviewDesignation font-medium">Google Review</div>
+
+                                <div class="ReviewComment font-medium-italic">Bizincorp has one of the best customer
+                                    services!
+                                    My special thanks to Mark, he assisted me during the application for my daughter and
+                                    husband’s visa. He is very responsive and accommodating. He answers all my queries
+                                    and lets you know all the documents you need beforehand so there are no
+                                    back-and-forth messages. Hassle-free and quality service! </div>
+
+                                <div class="QuoteRight">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="87" viewBox="0 0 36 87">
+
+                                        <text id="_" data-name="”" transform="translate(0 69)" fill="#8376b2"
+                                            font-size="71" font-family="Montserrat-Bold, Montserrat" font-weight="700">
+                                            <tspan x="0" y="0">”</tspan>
+                                        </text>
+
+                                    </svg>
+
+
+
+                                </div>
+
+                                <div class="text-center gtag">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="62" height="62" viewBox="0 0 62 62">
+
+                                        <image id="Image_1" data-name="Image 1" width="62" height="62"
+                                            xlink:href="data:image/png;base64,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"
+                                            style="mix-blend-mode: multiply;isolation: isolate" />
+
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="SliderItem Mainland Freezone">
+
+                        <div class="SliderItem1 nobg w1">
+
+                            <div class="ReviewBox text-center">
+
+                                <div class="ReviewOwnerB1 color1 font-black">M</div>
+
+                                <div class="QuoteLeft">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="87" viewBox="0 0 36 87">
+
+                                        <text id="_" data-name="“" transform="translate(0 69)" fill="#8376b2"
+                                            font-size="71" font-family="Montserrat-Bold, Montserrat" font-weight="700">
+                                            <tspan x="0" y="0">“</tspan>
+                                        </text>
+
+                                    </svg>
+
+                                </div>
+
+                                <div class="ReviewName font-bold">
+
+                                    Maurizio Pedrazzoli Grazioli</div>
+
+                                <div class="ReviewDesignation font-medium">Google Review</div>
+
+                                <div class="ReviewComment font-medium-italic">I needed some help with my Driving License
+                                    (UK to UAE Conversion) and I have nothing but amazing things to say about this
+                                    company and its services. Chris Caballero has been an absolute dream to work with,
+                                    he has gone above and beyond to support me and what I needed. I would recommend BIZ,
+                                    and use them again in the future!</div>
+
+                                <div class="QuoteRight">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="87" viewBox="0 0 36 87">
+
+                                        <text id="_" data-name="”" transform="translate(0 69)" fill="#8376b2"
+                                            font-size="71" font-family="Montserrat-Bold, Montserrat" font-weight="700">
+                                            <tspan x="0" y="0">”</tspan>
+                                        </text>
+
+                                    </svg>
+
+
+
+                                </div>
+
+                                <div class="text-center gtag">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="62" height="62" viewBox="0 0 62 62">
+
+                                        <image id="Image_1" data-name="Image 1" width="62" height="62"
+                                            xlink:href="data:image/png;base64,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"
+                                            style="mix-blend-mode: multiply;isolation: isolate" />
+
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="SliderItem Mainland Freezone">
+
+                        <div class="SliderItem1 nobg w1">
+
+                            <div class="ReviewBox text-center">
+
+                                <div class="ReviewOwnerB1 color3 font-black">A</div>
+
+                                <div class="QuoteLeft">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="87" viewBox="0 0 36 87">
+
+                                        <text id="_" data-name="“" transform="translate(0 69)" fill="#8376b2"
+                                            font-size="71" font-family="Montserrat-Bold, Montserrat" font-weight="700">
+                                            <tspan x="0" y="0">“</tspan>
+                                        </text>
+
+                                    </svg>
+
+                                </div>
+
+                                <div class="ReviewName font-bold">Abdul Rahman</div>
+
+                                <div class="ReviewDesignation font-medium">Google Review</div>
+
+                                <div class="ReviewComment font-medium-italic">It was a very smooth and good experience
+                                    dealing with the Bizincorp team.
+                                    Special thanks to Mr. Adil as he was very supportive and cooperative throughout the
+                                    process of medical, visa, and EID. All I can say is a highly professional and
+                                    recommended team to work with for the Business Incorporation and Visa process.</div>
+
+                                <div class="QuoteRight">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="87" viewBox="0 0 36 87">
+
+                                        <text id="_" data-name="”" transform="translate(0 69)" fill="#8376b2"
+                                            font-size="71" font-family="Montserrat-Bold, Montserrat" font-weight="700">
+                                            <tspan x="0" y="0">”</tspan>
+                                        </text>
+
+                                    </svg>
+
+
+
+                                </div>
+
+                                <div class="text-center gtag">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="62" height="62" viewBox="0 0 62 62">
+
+                                        <image id="Image_1" data-name="Image 1" width="62" height="62"
+                                            xlink:href="data:image/png;base64,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"
+                                            style="mix-blend-mode: multiply;isolation: isolate" />
+
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
+
+        <footer class="bgSecond panel" id="a9">
+
+            <div class="container">
+
+
+
+                <div class="row">
+
+                    <div class="col-3">
+
+                        <div class="ft1 font-black">
+
+                            Bringing <br />
+
+                            ideas to life
+
+                        </div>
+
+                        <div class="footerLogo">
+
+                            <img style="max-width: 230px;"
+                                src="https://jbeanijas.github.io/landing1/assets/desktop-images/kl10.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-3">
+
+
+
+                        <div class="ft2 font-bold">Let's Meet</div>
+
+                        <div class="fline">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="352" height="2.708" viewBox="0 0 352 2.708">
+
+                                <defs>
+
+                                    <linearGradient id="linear-gradient" x1="0.956" y1="1" x2="0.055" y2="1"
+                                        gradientUnits="objectBoundingBox">
+
+                                        <stop offset="0" stop-color="#dab28c" />
+
+                                        <stop offset="0.338" stop-color="#b0909e" />
+
+                                        <stop offset="0.739" stop-color="#8177b2" />
+
+                                        <stop offset="1" stop-color="#94bda5" />
+
+                                    </linearGradient>
+
+                                </defs>
+
+                                <rect id="Rectangle_522" data-name="Rectangle 522" width="352" height="2.708"
+                                    fill="url(#linear-gradient)" />
+
+                            </svg>
+
+                        </div>
+
+                        <div class="ft3 font-medium">
+
+                            Suite 13 & 14 , The Iridium Building, <br />
+
+
+
+                            Umm Suqeim Road,<br />
+
+
+
+                            Al Barsha. P. O. Box 391186,<br />
+
+
+
+                            Dubai, UAE
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-3">
+
+                        <div class="ft2 font-bold">Let's Talk</div>
+
+                        <div class="fline">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="352" height="2.708" viewBox="0 0 352 2.708">
+
+                                <defs>
+
+                                    <linearGradient id="linear-gradient" x1="0.956" y1="1" x2="0.055" y2="1"
+                                        gradientUnits="objectBoundingBox">
+
+                                        <stop offset="0" stop-color="#dab28c" />
+
+                                        <stop offset="0.338" stop-color="#b0909e" />
+
+                                        <stop offset="0.739" stop-color="#8177b2" />
+
+                                        <stop offset="1" stop-color="#94bda5" />
+
+                                    </linearGradient>
+
+                                </defs>
+
+                                <rect id="Rectangle_522" data-name="Rectangle 522" width="352" height="2.708"
+                                    fill="url(#linear-gradient)" />
+
+                            </svg>
+
+                        </div>
+
+                        <div class="ft4 font-medium">
+
+                            <strong class="font-bold">Toll-Free 24*7:</strong> 800 BIZ (249)
+
+                        </div>
+
+                        <div class="ft4 font-medium">
+
+                            <strong class="font-bold">Email: </strong> setup@bizincorp.ae
+
+                        </div>
+
+                        <div class="ft4 font-medium">
+
+                            <strong class="font-bold">Operating Hours:
+
+                            </strong><br />Mon – Fri: 8.30 am – 5.30 pm
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </footer>
+
+    </section>
+
+    <section class="footerBottom font-medium">
+
+        <div class="container">
+
+            <div class="row" style="align-items:center;">
+
+                <div style="    flex: 0 0 66.66%;max-width: 66.66%;padding-left:15px;padding-right: 15px;">
+
+                    <div class="fbT1">Copyright © 2022 BIZ legal. Business Incorporation Zone</div>
+
+                </div>
+
+                <div style="    flex: 0 0 33.33%;max-width: 33.33%;padding-left:15px;padding-right: 15px;">
+
+                    <a href="https://www.businessincorporationzone.ae/privacy-policy/"
+                        style="display:inline-block; color:#fff !important;">Privacy Policy</a>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+    <script src="https://jbeanijas.github.io/landing1/assets/slick/slick.min.js" type="text/javascript"
+        charset="utf-8"></script>
+
+    <script type="text/javascript">
+        jQuery(document).on('ready', function () {
+
+            jQuery("#btn-other-services").on("click", function(){
+                jQuery(".other-services-wrapper").addClass("active");
+            });
+            jQuery(".other-services-wrapper").on("click", function(){
+                jQuery(".other-services-wrapper").removeClass("active");
+            });
+
+            jQuery(".SldrContent").click(
+
+                function () {
+
+                    jQuery(this).next().addClass("flip");
+
+                }
+
+            );
+
+            jQuery(" .BackContent ").click(
+
+                function () {
+
+                    jQuery(this).removeClass("flip");
+
+                }
+
+            );
+
+            jQuery(".ItemBlock1").click(
+
+                function () {
+
+                    jQuery(this).toggleClass("active");
+
+                }
+
+            );
+
+
+
+
+
+            jQuery(".BtnS1 ").click(function () {
+                $(".servicebutton").removeClass("active");
+                $(this).addClass("active");
+                $('#input_13_15').val($(this).data('val')).trigger('change');
+                jQuery('html, body').animate({
+
+                    scrollTop: jQuery("body").offset().top
+
+                }, 1000);
+
+            });
+
+            jQuery(".ScrollToContact").click(function () {
+
+                jQuery('html, body').animate({
+
+                    scrollTop: jQuery("body").offset().top
+
+                }, 1000);
+
+            });
+
+
+
+
+
+
+            if (jQuery(window).width() < 600) {
+                $(".singleitem").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/main/klc1.jpg");
+                $(".mob1").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m1.jpg");
+                $(".mob2").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m2.jpg");
+                $(".mob3").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m3.jpg");
+                $(".mob4").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m4.jpg");
+                $(".mob5").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m5.jpg");
+                $(".mob6").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/m6.jpg");
+
+
+            } else {
+                $(".singleitem").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/main/klcd1.jpg");
+                $(".mob1").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w1.jpg");
+                $(".mob2").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w2.jpg");
+                $(".mob3").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w3.jpg");
+                $(".mob4").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w4.jpg");
+                $(".mob5").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w5.jpg");
+                $(".mob6").attr('src', "https://jbeanijas.github.io/landing1/assets/desktop-images/w6.jpg");
+
+            }
+
+            let userVideoydesktop = '<img src="https://www.businessincorporationzone.ae/wp-content/uploads/2022/11/BIZ-Website-Employee-Photos-17112022.jpg" style="width:100%;"/>';
+            let userVideoymobile = '<img src="https://www.businessincorporationzone.ae/wp-content/uploads/2022/11/BIZ-Website-Employee-Photos-17112022.jpg" style="width:100%;"/>';
+            if (jQuery(window).width() < 600) {
+                jQuery('.userVideoy').append(userVideoymobile)
+            }
+            else {
+                jQuery('.userVideoy').append(userVideoydesktop)
+            }
+
+            jQuery('.herobanner').slick({
+
+                dots: false,
+
+                infinite: true,
+
+                slidesToShow: 1,
+
+                slidesToScroll: 1,
+
+                arrows: false,
+
+                fade: true,
+
+                cssEase: 'linear',
+
+                autoplay: true,
+
+                autoplaySpeed: 1200,
+
+                lazyLoad: 'ondemand',
+
+                adaptiveHeight: true
+
+            });
+
+            jQuery('.FeaturesSlider').slick({
+
+                dots: false,
+
+                infinite: true,
+
+                slidesToShow: 1,
+
+                slidesToScroll: 1,
+
+                arrows: true
+
+            });
+            jQuery(".hero__person-landscape").mouseover(function(){
+                    jQuery(this).addClass("active");
+            });
+            jQuery(".hero__person-landscape").mouseout(function(){
+                    jQuery(this).removeClass("active");
+            });
+            
+            jQuery( ".hero__person:first-child " ).addClass("active")
+            jQuery( ".hero__person " ).mouseover(
+              function() {
+                  jQuery( ".hero__person:first-child " ).removeClass("active")
+                jQuery( this ).addClass("active");
+                 
+              }
+             );
+             jQuery( ".hero__person " ).mouseout(
+              function() {
+                jQuery( this ).removeClass("active");
+                jQuery( ".hero__person:first-child " ).addClass("active")
+                
+              }
+             );
+             jQuery( ".hero__person " ).mouseleave(
+              function() {
+                jQuery( this ).find(".ServiceDesc").removeClass("active")
+                
+              }
+             );
+
+            jQuery('.FeaturesSlider1').slick({
+
+                dots: false,
+
+                infinite: true,
+
+                slidesToShow: 3,
+
+                slidesToScroll: 1,
+
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 1,
+                            centerMode: true
+                        },
+                    }
+                ]
+
+            });
+            jQuery('.slickCenterMode').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+                centerMode: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                      breakpoint: 800,
+                      settings:  {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                      }
+                    },
+                 ],
+
+            });
+            jQuery('.FeaturesSlider3').slick({
+
+                dots: false,
+
+                infinite: true,
+
+                slidesToShow: 3,
+
+                slidesToScroll: 1,
+
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 1,
+                            centerMode: true
+                        },
+                    }
+                ]
+
+            });
+
+            jQuery('.slick').slick({
+
+                infinite: true,
+
+                slidesToShow: 3,
+
+                slidesToScroll: 1,
+
+                swipe: true,
+
+                swipeToSlide: true
+
+            });
+            jQuery(".newslider").slick({
+                infinite: true,
+                centerMode: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                asNavFor: '.slider-nav',
+                mobileFirst: true,
+                speed: 900,
+                adaptiveHeight: true
+            });
+            jQuery('.slider-nav').slick({
+                infinite: true,
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                asNavFor: '.newslider',
+                dots: false,
+                focusOnSelect: true,
+                speed: 600,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 2,
+                            asNavFor: '.newslider',
+                            dots: false,
+                            focusOnSelect: true,
+                            speed: 600,
+                            centerMode: true
+                        },
+                    }
+                ]
+            });
+
+
+            jQuery(".navBtnTxt2").on('click', function () {
+                jQuery(".navBtnTxt2").removeClass("active")
+                jQuery(this).addClass("active")
+            })
+            jQuery(".ServiceName , .hero__person-txt-more").on('click', function () {
+                jQuery(".ServiceDesc").removeClass("active")
+                jQuery(this).next(".ServiceDesc").addClass("active");
+            })
+            jQuery(".ServiceDesc").on('click', function () {
+                jQuery(this).removeClass("active")
+            })
+
+
+        });
+    </script>
+
+    <script src="https://jbeanijas.github.io/landing1/assets/js/counterjs.js" type="text/javascript"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+
+            jQuery('.counter').counterUp({
+
+                delay: 10,
+
+                time: 1000
+
+            });
+
+            /*Phone Number Fix */
+            var gcapdataInput = $("#gform_9").find('.gfield_recaptcha_response');
+            if (gcapdataInput.val().length == 0) {
+
+                grecaptcha.ready(function () {
+                    grecaptcha.execute($(".gf_invisible.ginput_recaptchav3").data("sitekey"), {
+                        action: 'submit'
+                    }).then(function (token) {
+                        if (token.length && typeof token === 'string') {
+                            $("#gform_9").find('.gfield_recaptcha_response').val(token);
+                        }
+                    });
+                });
+            }
+            $(".gform_footer").css("position", "relative").append('<div id="form_btn_overlay" style="position:absolute;left:0;top:0;width:100%;height:100%;z-index:99;cursor:pointer;"></div>');
+            $("#form_btn_overlay").click(function () {
+                if ($("#input_9_2").val().length > 6) {
+                    $(".gform_footer #form_btn_overlay").remove();
+                    $("#gform_submit_button_9").trigger("click");
+                    $("#field_9_2").find(".spf-phone.valid-msg").removeClass("hide");
+                    $("#field_9_2").find(".spf-phone.error-msg").addClass("hide");
+                } else {
+                    $("#input_9_2").trigger("focus");
+                    $("#field_9_2").find(".spf-phone.error-msg").removeClass("hide");
+                    $("#field_9_2").find(".spf-phone.valid-msg").addClass("hide");
+                }
+            });
+
+        });
+    </script>
+
+
+
+    <script>
+       
+
+        wow.init();
+        jQuery(document).ready(function ($) {
+            $("#input_11_2").val("");
+            $(".Preloader").addClass("hidden");
+
+
+
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    <!-- <div class="FixedNav">
+
+    <a href="#">
+
+      
+
+          <img src="https://jbeanijas.github.io/landing1/assets/images/callbtn.png" alt="">
+
+    </a>
+
+    <a href="#">
+
+       
+
+        <img src="https://jbeanijas.github.io/landing1/assets/images/whatsappbtn.png" alt=""> 
+
+    </a>
+
+    <a href="#">
+
+        <img src="https://jbeanijas.github.io/landing1/assets/images/emailbtn.png" alt="">
+
+    </a>
+
+</div> -->
+
+
+
+    <?php
+
+    function gf_enqueue_required_files()
+    {
+
+        GFCommon::log_debug(__METHOD__ . '(): running.');
+
+        if (is_single() && 'post' === get_post_type()) { // Do it only for Posts.
+
+            gravity_form_enqueue_scripts(13, true);
+        }
+    }
+
+    add_action('get_header', 'gf_enqueue_required_files');
+
+
+
+    function gf_add_newsletter_form_after_post($content)
+    {
+
+        GFCommon::log_debug(__METHOD__ . '(): running.');
+
+        // Form added after the post content.
+
+        $content .= gravity_form(13, true, true, false, false, true, false, false);
+
+        return $content;
+    }
+
+    add_filter('the_content', 'gf_add_newsletter_form_after_post');
+
+
+
+    wp_footer()
+
+    ?>
+
+</body>
+
+
+
+</html>
