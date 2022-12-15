@@ -99,69 +99,7 @@
   <link rel="stylesheet" type="text/css"
     href="https://mccollinsmediaweb.github.io/Clients/BIZ-Russian/assets/css/russian.css" />
   <style>
-    .section1 {
-      position: relative;
-      left: auto;
-      top: auto;
-    }
 
-    @media only screen and (max-width: 750px) {
-      .row .col-md-6 {
-        flex: 0 0 100%;
-        max-width: 100%;
-      }
-
-      .row .col-3 {
-        flex: 0 0 100%;
-        max-width: 100%;
-      }
-
-      .Section1 {
-        display: block;
-        height: auto;
-      }
-
-      .Section1Wrp {
-        min-height: 100px;
-        height: auto;
-      }
-
-      html {
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
-        position: relative;
-      }
-
-      body {
-        position: relative;
-        overflow-x: hidden !important;
-      }
-      .Llogo1 img {
-    max-width: 250px;
-    margin-bottom: 20px;
-}
-.Ht1 {
-    font-size: 27px;
-}
-.Ht2 {
-    font-size: 25px;
-}
-.Ht3 {
-    padding: 15px 20px;
-    font-size: 16px;
-    margin: 15px 0px;
-}
-.Ht3:after {
-    border-top: 47px solid #b6d07c;
-    border-right: 50px solid transparent;
-    right: -48px;
-}
-.Ht4 ul {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-    }
   </style>
 </head>
 
@@ -198,6 +136,10 @@
                     <li>Консультация эксперта</li>
                   </ul>
                 </div>
+              </div>
+              <div class="mobile-only col-md-12">
+                <img style="width:100%;"
+                  src="https://mccollinsmediaweb.github.io/Clients/BIZ-Russian/assets/images/mobile.jpg" />
               </div>
               <div class="col-md-4">
                 <div class="Form1">
@@ -322,7 +264,7 @@
         </div>
       </div>
       <div class="FullWidthImage">
-        <img class="Image1" src="https://mccollinsmediaweb.github.io/Clients/BIZ-Russian/assets/images/Image-2.jpg" />
+        <img class="Image1 ImageSwitcher" data-desktop="https://mccollinsmediaweb.github.io/Clients/BIZ-Russian/assets/images/Image-2.jpg" data-mobile="https://www.businessincorporationzone.ae/wp-content/uploads/2022/10/Photo-For-Website-1.jpg" />
       </div>
     </div>
     <div class="Sec4">
@@ -616,13 +558,23 @@
   </section>
   <?php wp_footer(); ?>
   <script type="text/javascript">
-      // jQuery(document).ready(function ($) {
-      //   var InnerH = jQuery(window).height();
-      //   $(".Section1").css("min-height", InnerH + "px");
-      //   $(".Section1Wrp").css("min-height", InnerH + "px");
-      //   var scroll_pos = 0;
-      //   $("html, body").animate({ scrollTop: scroll_pos }, "2000");
-      // });
+      jQuery(document).ready(function ($) {
+        if (jQuery(window).width() < 1000) {
+            jQuery(".ImageSwitcher")
+            .fadeOut(400, function() {
+              jQuery(this).attr('src',jQuery(this).attr('data-mobile'));
+            })
+            .fadeIn(400);
+        }
+        else {
+          jQuery(".ImageSwitcher")
+            .fadeOut(400, function() {
+              jQuery(this).attr('src',jQuery(this).attr('data-desktop'));
+            })
+            .fadeIn(400);
+        }
+        $("html, body").animate({ scrollTop: scroll_pos }, "2000");
+      });
   </script>
 </body>
 
