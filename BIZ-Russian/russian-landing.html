@@ -99,7 +99,10 @@
   <link rel="stylesheet" type="text/css"
     href="https://mccollinsmediaweb.github.io/Clients/BIZ-Russian/assets/css/russian.css" />
   <style>
-
+    .Section1{
+      height: auto;
+      min-height: 100%;
+    }
   </style>
 </head>
 
@@ -573,7 +576,10 @@
             })
             .fadeIn(400);
         }
-        $("html, body").animate({ scrollTop: scroll_pos }, "2000");
+        $("html, body").animate({scrollTop: 0}, 500);
+        $(document).on("click",".ctaCallBtn",function() {
+          $("html, body").animate({scrollTop: 0}, 500);
+        });
       });
   </script>
 </body>
