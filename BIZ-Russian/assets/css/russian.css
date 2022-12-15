@@ -607,3 +607,16 @@ body .gform_legacy_markup_wrapper ul li.gfield {
   }
 
 }
+
+.Section1{
+  height: auto;
+  min-height: 100%;
+}
+.gform_legacy_markup_wrapper input.large, .gfield_select {
+border: 2px solid #e2e2e2 !important;
+}
+@media only screen and (max-width: 750px) {
+  .Section1 {
+    background-image: url(https://mccollinsmediaweb.github.io/Clients/BIZ-Russian/assets/images/Yandex_Landingpage_Mob_Banner.jpg);
+  }
+}
