@@ -16,6 +16,12 @@
     <meta property="og:type" content="Website" />
     <meta property="og:title" content="Dubai International Hotel" />
     <meta property="og:description" content="Conveniently located at the Dubai International Airport, the Dubai International Hotel is devoted to making your stay as comfortable as possible. We are situated at Terminal 3 of the Airport, and cater to the accommodation needs of passengers in transit." />
+    <script src="assets/jquery-1.11.0.min.js"></script>
+	<script src="assets/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/slick.min.js" ></script>
+    <link rel="stylesheet" href="assets/slick-theme.min.css"  />
+    <link rel="stylesheet" href="assets/slick.min.css"/>
+
     <style type="text/css">
         body{
             margin: 0;
@@ -94,6 +100,8 @@
         .logo{
             max-width: 120px;
             margin-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
         }
         .T1{
             font-size: 60px;
@@ -126,6 +134,18 @@
         .T3:hover{
             background-color: #25346b;
             color: #ffd128;
+        }
+        .PWrap{
+            position: relative;
+        }
+        .PWrap:after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
         }
         @media only screen and (max-width: 1000px) {
             .mainImg{
@@ -168,21 +188,90 @@
     </style>
   </head>
   <body>
-    <div class="PWrap">
-        <img class="mainImg" src="https://mccollinsmediaweb.github.io/Clients/DIH/main.jpg"/>
-        <img class="circle-shape1" src="https://mccollinsmediaweb.github.io/Clients/DIH/circle1.png"/>
-        <img class="circle-shape2" src="https://mccollinsmediaweb.github.io/Clients/DIH/circle2.png"/>
-        <div class="AbsoluteBox">
-            <div class="ContentPart">
-                <div>
-                    <img class="logo" src="https://mccollinsmediaweb.github.io/Clients/DIH/logo1.png"/>
-                    <div class="T1">COMING SOON</div>
-                    <div class="T2">We’re revamping our website to create an enhanced
-                        customer experience. Stay tuned for further updates.</div>
-                    <a class="T3" href="https://reservations.dubaiintlhotels.com/73455?HotelId=73455&RatePlanId=39383&DateIn=10/20/2022&DateOut=10/21/2022&Adults=1&Length=1&languageid=1#/accommodation/room">Book Now</a>
+    <div class="SlickSlider">
+        <div>
+            <div class="PWrap">
+                <img class="mainImg" src="1.jpg"/>
+                <img class="circle-shape1" src="https://mccollinsmediaweb.github.io/Clients/DIH/circle1.png"/>
+                <img class="circle-shape2" src="https://mccollinsmediaweb.github.io/Clients/DIH/circle2.png"/>
+                <div class="AbsoluteBox">
+                    <div class="ContentPart">
+                        <div>
+                            <img class="logo" src="https://mccollinsmediaweb.github.io/Clients/DIH/logo1.png"/>
+                            <div class="T1">Grab A Coffee - We’re Under Maintenance</div>
+                            <div class="T2">We’re revamping our website to create an enhanced
+                                customer experience. Stay tuned for further updates.</div>
+                            <a class="T3" href="https://reservations.dubaiintlhotels.com/73455?HotelId=73455&RatePlanId=39383&DateIn=10/20/2022&DateOut=10/21/2022&Adults=1&Length=1&languageid=1#/accommodation/room">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PWrap">
+                <img class="mainImg" src="2.jpg"/>
+                <img class="circle-shape1" src="https://mccollinsmediaweb.github.io/Clients/DIH/circle1.png"/>
+                <img class="circle-shape2" src="https://mccollinsmediaweb.github.io/Clients/DIH/circle2.png"/>
+                <div class="AbsoluteBox">
+                    <div class="ContentPart">
+                        <div>
+                            <img class="logo" src="https://mccollinsmediaweb.github.io/Clients/DIH/logo1.png"/>
+                            <div class="T1">Grab A Coffee - We’re Under Maintenance</div>
+                            <div class="T2">We’re revamping our website to create an enhanced
+                                customer experience. Stay tuned for further updates.</div>
+                            <a class="T3" href="https://reservations.dubaiintlhotels.com/73455?HotelId=73455&RatePlanId=39383&DateIn=10/20/2022&DateOut=10/21/2022&Adults=1&Length=1&languageid=1#/accommodation/room">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PWrap">
+                <img class="mainImg" src="3.jpg"/>
+                <img class="circle-shape1" src="https://mccollinsmediaweb.github.io/Clients/DIH/circle1.png"/>
+                <img class="circle-shape2" src="https://mccollinsmediaweb.github.io/Clients/DIH/circle2.png"/>
+                <div class="AbsoluteBox">
+                    <div class="ContentPart">
+                        <div>
+                            <img class="logo" src="https://mccollinsmediaweb.github.io/Clients/DIH/logo1.png"/>
+                            <div class="T1">Grab A Coffee - We’re Under Maintenance</div>
+                            <div class="T2">We’re revamping our website to create an enhanced
+                                customer experience. Stay tuned for further updates.</div>
+                            <a class="T3" href="https://reservations.dubaiintlhotels.com/73455?HotelId=73455&RatePlanId=39383&DateIn=10/20/2022&DateOut=10/21/2022&Adults=1&Length=1&languageid=1#/accommodation/room">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PWrap">
+                <img class="mainImg" src="4.jpg"/>
+                <img class="circle-shape1" src="https://mccollinsmediaweb.github.io/Clients/DIH/circle1.png"/>
+                <img class="circle-shape2" src="https://mccollinsmediaweb.github.io/Clients/DIH/circle2.png"/>
+                <div class="AbsoluteBox">
+                    <div class="ContentPart">
+                        <div>
+                            <img class="logo" src="https://mccollinsmediaweb.github.io/Clients/DIH/logo1.png"/>
+                            <div class="T1">Grab A Coffee - We’re Under Maintenance</div>
+                            <div class="T2">We’re revamping our website to create an enhanced
+                                customer experience. Stay tuned for further updates.</div>
+                            <a class="T3" href="https://reservations.dubaiintlhotels.com/73455?HotelId=73455&RatePlanId=39383&DateIn=10/20/2022&DateOut=10/21/2022&Adults=1&Length=1&languageid=1#/accommodation/room">Book Now</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+    $('.SlickSlider').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+});
+    </script>
   </body>
 </html>
